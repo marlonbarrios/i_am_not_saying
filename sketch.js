@@ -79,7 +79,8 @@ let autoGenerateInterval = null; // Interval for automatic text generation
 let prevMouseX = 0; // Previous mouse X position for speed calculation
 let prevMouseY = 0; // Previous mouse Y position for speed calculation
 let drawnLetters = []; // Array to store drawn letters with their properties
-let letterLifespan = 15000; // Lifespan in milliseconds (15 seconds - 100% longer)
+const maxDrawnLetters = 320; // Cap so frame rate stays smooth
+let letterLifespan = 15000; // Lifespan in milliseconds (15 seconds)
 let showHomePage = true; // Show home page until user starts
 let selectedLanguage = 'en'; // Default language: English
 let showLanguageMenu = true; // Show language menu
@@ -582,21 +583,13 @@ const sketch = p => {
       }
       const offCtx = off && off.getContext('2d');
       if (offCtx && off && off.width > 0 && off.height > 0) {
-        // Same as original: mirror and stretch video to fill canvas (0,0,p.width,p.height)
+        // Use GPU-friendly filter instead of per-pixel getImageData/putImageData (much lighter)
         offCtx.save();
+        offCtx.filter = 'grayscale(1)';
         offCtx.translate(p.width, 0);
         offCtx.scale(-1, 1);
         offCtx.drawImage(faceTrackerVideo, 0, 0, vw, vh, 0, 0, p.width, p.height);
         offCtx.restore();
-        // Grayscale the offscreen image
-        const img = offCtx.getImageData(0, 0, p.width, p.height);
-        const d = img.data;
-        for (let i = 0; i < d.length; i += 4) {
-          const gray = (0.299 * d[i] + 0.587 * d[i + 1] + 0.114 * d[i + 2]) | 0;
-          d[i] = d[i + 1] = d[i + 2] = gray;
-        }
-        offCtx.putImageData(img, 0, 0);
-        // Draw to main canvas without mirroring again (offscreen is already mirrored so mouth position matches)
         if (ctx && typeof ctx.drawImage === 'function') {
           ctx.drawImage(off, 0, 0, p.width, p.height, 0, 0, p.width, p.height);
         }
@@ -671,17 +664,15 @@ const sketch = p => {
       // Don't return here - let language menu show on top
     }
     
-    // Draw all stored letters with their current opacity
+    // Draw all stored letters with their current opacity (cap count for smoother frames)
     const currentTime = p.millis();
+    if (drawnLetters.length > maxDrawnLetters) {
+      drawnLetters = drawnLetters.slice(-maxDrawnLetters);
+    }
     drawnLetters = drawnLetters.filter(letter => {
       const age = currentTime - letter.createdAt;
       const opacity = p.map(age, 0, letterLifespan, 255, 0, true);
-      
-      if (opacity <= 0) {
-        return false; // Remove faded letters
-      }
-      
-      // Bubble letters (from mouth): float up, drift more from each other, expand as they rise
+      if (opacity <= 0) return false;
       let drawX = letter.x;
       let drawY = letter.y;
       let drawSize = letter.size;
@@ -690,34 +681,21 @@ const sketch = p => {
         const t = age * 0.001;
         const s1 = letter.wobbleSeed1 ?? 0;
         const s2 = letter.wobbleSeed2 ?? 0;
-        const s3 = letter.wobbleSeed3 ?? 0;
-        const expand = 1 + age * bubbleDriftExpand; // drift grows with age: more expansive as they go up
-        const driftX =
-          (p.sin(t * 1.11 + s1) * bubbleDriftAmp +
-           p.sin(t * 0.73 + s2) * (bubbleDriftAmp * 0.7) +
-           p.cos(t * 0.47 + s1 * 1.3) * (bubbleDriftAmp * 0.5) +
-           p.sin(t * 1.63 + s3) * (bubbleDriftAmp * 0.45) +
-           p.cos(t * 0.31 + s2 * 0.7) * (bubbleDriftAmp * 0.35)) * expand;
-        const driftY =
-          (p.cos(t * 0.91 + s2) * bubbleDriftAmpY +
-           p.sin(t * 0.61 + s1) * (bubbleDriftAmpY * 0.6) +
-           p.cos(t * 1.27 + s3) * (bubbleDriftAmpY * 0.5) +
-           p.sin(t * 0.39 + s2 * 1.1) * (bubbleDriftAmpY * 0.4)) * expand;
+        const expand = 1 + age * bubbleDriftExpand;
+        const driftX = (p.sin(t * 1.1 + s1) * bubbleDriftAmp + p.cos(t * 0.7 + s2) * (bubbleDriftAmp * 0.6)) * expand;
+        const driftY = (p.cos(t * 0.9 + s2) * bubbleDriftAmpY + p.sin(t * 0.6 + s1) * (bubbleDriftAmpY * 0.5)) * expand;
         drawX = letter.x + driftX;
         drawY = letter.y - floatRise + driftY;
-        drawSize = letter.size * (1 + age * bubbleScaleExpand); // letters open/grow slightly as they rise
+        drawSize = letter.size * (1 + age * bubbleScaleExpand);
       }
-      
       p.push();
       p.translate(drawX, drawY);
       p.rotate(letter.angle);
-      const letterColor = showVideoAsBackground ? 255 : (darkMode ? 240 : 0);
-      p.fill(letterColor, opacity);
+      p.fill(showVideoAsBackground ? 255 : (darkMode ? 240 : 0), opacity);
       p.textSize(drawSize);
       p.text(letter.char, 0, 0);
       p.pop();
-      
-      return true; // Keep this letter
+      return true;
     });
     
     // Draw new letters if text is ready and (mouse drag or mouth open)

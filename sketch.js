@@ -1072,7 +1072,7 @@ const sketch = p => {
       // Check if clicking on repository link
       if (p.mouseX >= repoLinkLeft && p.mouseX <= repoLinkRight &&
           p.mouseY >= repoLinkTop && p.mouseY <= repoLinkBottom) {
-        window.open('https://github.com/marlonbarrios/machine_forgetting_textvoice', '_blank');
+        window.open('https://github.com/marlonbarrios/i_am_not_saying', '_blank');
         return; // Exit early - don't trigger other actions
       }
     }

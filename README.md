@@ -2,6 +2,8 @@
 
 Generative text and voice piece: generate AI text (philosophical, freedom of expression, entropy, language), then draw it in space with your face or mouse. Letters fade and float like bubbles; audio plays in sync as you draw.
 
+**Live:** [https://i-am-not-saying.vercel.app/](https://i-am-not-saying.vercel.app/)
+
 **Features:**
 - **Face tracking** (MediaPipe): open your mouth to draw—cursor follows the center of your mouth; move your head while mouth is open to write. Close mouth to stop.
 - **Mouse**: click and drag to draw.

@@ -1,9 +1,9 @@
-# Machine Forgetting
+# I Am Not Saying — A Machine for Synthetic Expression
 
-Generative text and voice piece: generate AI text (Samuel Beckett–style), then draw it in space with your hand or mouse. Letters fade over time; audio plays in sync as you draw.
+Generative text and voice piece: generate AI text (philosophical, freedom of expression, entropy, language), then draw it in space with your face or mouse. Letters fade and float like bubbles; audio plays in sync as you draw.
 
 **Features:**
-- **Hand tracking** (MediaPipe): pinch thumb + index to draw—no mouse needed.
+- **Face tracking** (MediaPipe): open your mouth to draw—cursor follows the center of your mouth; move your head while mouth is open to write. Close mouth to stop.
 - **Mouse**: click and drag to draw.
 - **T** = toggle camera as background so you see yourself drawing on the live video.
 - **Space** = generate new text (and TTS). Volume follows vertical position; speed follows movement.
@@ -33,7 +33,7 @@ For Vercel-style local dev before deploy: `npm run start` (vercel dev).
 | Action | Result |
 |--------|--------|
 | **Space** | Generate new text + audio |
-| **Click and drag** or **pinch (thumb + index)** | Draw text in space; audio plays in sync |
+| **Click and drag** or **open mouth** (face) | Draw text in space; audio plays in sync |
 | **T** | Toggle camera as background (draw on top of live video) |
 | **Backspace / Delete** | Clear drawing |
 | **S** | Save canvas as PNG |
@@ -49,6 +49,6 @@ Build: `npm run build`. Deploy the `dist/` folder and the `api/` serverless func
 
 ## Console messages
 
-- **MediaPipe** (OpenGL, TensorFlow Lite, etc.): normal hand-tracking logs; safe to ignore.
+- **MediaPipe** (OpenGL, TensorFlow Lite, etc.): normal face-tracking logs; safe to ignore.
 - **Port in use**: dev server will try the next port (5174, 5175…). Use the URL printed in the terminal.
 - **API 404**: use `npm run dev` (custom server with API) or `npm run start` (vercel dev).

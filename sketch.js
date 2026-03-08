@@ -653,8 +653,8 @@ const sketch = p => {
     // Draw control buttons (home and dark/light mode) in top right
     drawControlButtons(p, textColor, bgColor, uiScale);
     
-    // Draw language menu only on home page
-    if (showLanguageMenu && showHomePage && !hasStartedDrawing) {
+    // Draw language menu on home page or when in transparent mode (so user can change language without leaving video view)
+    if (showLanguageMenu && (showHomePage && !hasStartedDrawing || showVideoAsBackground)) {
       drawLanguageMenu(p, textColor, bgColor, uiScale);
     }
     
@@ -772,6 +772,12 @@ const sketch = p => {
       }
     }
     
+    // Minimal center animation while generating text or audio
+    const isGenerating = isLoading || (textReady && letters.length > 0 && !audioReady);
+    if (isGenerating) {
+      drawGeneratingAnimation(p, textColor, uiScale);
+    }
+
     // Show text generation status indicator
     if (!showHomePage || hasStartedDrawing) {
       drawTextStatusIndicator(p, textColor, bgColor, uiScale);
@@ -790,24 +796,46 @@ const sketch = p => {
     }
   };
   
+  function drawGeneratingAnimation(p, textColor, scale) {
+    p.push();
+    const centerX = p.width / 2;
+    const centerY = p.height / 2;
+    const t = p.millis() * 0.001;
+    const dotRadius = 4 * scale;
+    const dotSpacing = 16 * scale;
+    const cycleDuration = 1.2;
+    const phase = (t % cycleDuration) / cycleDuration; // 0 to 1
+    p.noStroke();
+    for (let i = 0; i < 3; i++) {
+      const iPhase = (phase + i / 3) % 1;
+      const alpha = 80 + 175 * (0.5 + 0.5 * p.sin(iPhase * p.TWO_PI));
+      p.fill(textColor, alpha);
+      const x = centerX - dotSpacing + i * dotSpacing;
+      p.circle(x, centerY, dotRadius * 2);
+    }
+    p.pop();
+  }
+
   function drawTextStatusIndicator(p, textColor, bgColor, scale) {
     p.push();
     const centerX = p.width / 2;
-    const indicatorY = p.height - 40 * scale;
+    const isGenerating = isLoading || (textReady && letters.length > 0 && !audioReady);
+    // When generating, place text just below the center animation; otherwise at bottom
+    const indicatorY = isGenerating ? p.height / 2 + 32 * scale : p.height - 40 * scale;
     const t = translations[selectedLanguage] || translations['en'];
     const size = Math.round(14 * scale);
     if (isLoading) {
       p.textAlign(p.CENTER, p.CENTER);
       p.textFont(font);
       p.textSize(size);
-      p.fill(textColor - 100);
+      p.fill(textColor); // Full contrast so "Generating text..." is readable (black on solid bg when language just selected)
       p.noStroke();
       p.text(t.generatingText || 'Generating text...', centerX, indicatorY);
     } else if (textReady && letters.length > 0 && !audioReady) {
       p.textAlign(p.CENTER, p.CENTER);
       p.textFont(font);
       p.textSize(size);
-      p.fill(textColor - 100);
+      p.fill(textColor); // Full contrast so "Generating audio..." is readable
       p.noStroke();
       p.text(t.generatingAudio || 'Generating audio...', centerX, indicatorY);
     } else if (textReady && audioReady && letters.length > 0) {
@@ -877,50 +905,65 @@ const sketch = p => {
     const pad = 8 * scale;
     const selectedLang = languages[selectedLanguage];
     const buttonCenterX = menuX + menuWidth / 2;
-    const buttonBg = 255;
-    const borderColor = bgColor === 255 ? 230 : 45;
-    p.fill(buttonBg, 250);
-    p.stroke(borderColor, 120);
-    p.strokeWeight(1);
-    drawRoundedRect(p, menuX - pad, menuY - pad, menuWidth, itemHeight + pad, cornerRadius);
+    // When ready to interact (text + audio generated): transparent menu + white text. Otherwise: solid menu + black text so "Generating text/audio" is readable.
+    const readyToInteract = textReady && audioReady && letters.length > 0;
+    if (readyToInteract) {
+      // Transparent: user knows they can interact
+      p.noFill();
+      p.noStroke();
+      drawRoundedRect(p, menuX - pad, menuY - pad, menuWidth, itemHeight + pad, cornerRadius);
+      p.fill(255);
+    } else {
+      // Non-transparent: solid background so generating messages are readable
+      const buttonBg = bgColor;
+      const borderColor = bgColor === 255 ? 230 : 45;
+      p.fill(buttonBg);
+      p.stroke(borderColor, 120);
+      p.strokeWeight(1);
+      drawRoundedRect(p, menuX - pad, menuY - pad, menuWidth, itemHeight + pad, cornerRadius);
+      p.fill(bgColor === 255 ? 0 : 255);
+      p.noStroke();
+    }
     p.textFont(font);
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(Math.round(11 * scale));
-    p.fill(0);
-    p.noStroke();
     p.text(selectedLang.native, buttonCenterX, menuY);
     p.textAlign(p.RIGHT, p.CENTER);
     p.textSize(Math.round(9 * scale));
-    p.fill(100);
+    p.fill(readyToInteract ? 255 : (bgColor === 255 ? 100 : 200));
     p.text(languageMenuOpen ? '▲' : '▼', menuX + menuWidth - pad, menuY);
     if (languageMenuOpen) {
       const dropdownHeight = Object.keys(languages).length * itemHeight + pad;
-      p.fill(255, 255);
-      p.stroke(borderColor, 120);
-      p.strokeWeight(1);
-      drawRoundedRect(p, menuX - pad, menuY + itemHeight, menuWidth, dropdownHeight, cornerRadius);
+      if (readyToInteract) {
+        p.noFill();
+        p.noStroke();
+        drawRoundedRect(p, menuX - pad, menuY + itemHeight, menuWidth, dropdownHeight, cornerRadius);
+        p.fill(255);
+      } else {
+        p.fill(bgColor);
+        const borderColor = bgColor === 255 ? 230 : 45;
+        p.stroke(borderColor, 120);
+        p.strokeWeight(1);
+        drawRoundedRect(p, menuX - pad, menuY + itemHeight, menuWidth, dropdownHeight, cornerRadius);
+        p.fill(bgColor === 255 ? 0 : 255);
+        p.noStroke();
+      }
       p.textAlign(p.CENTER, p.CENTER);
       p.textSize(Math.round(10 * scale));
       let yPos = menuY + itemHeight + 12 * scale;
       for (const [code, lang] of Object.entries(languages)) {
         const isSelected = selectedLanguage === code;
-        
-        // Highlight selected language with rounded corners
-        if (isSelected) {
-          p.fill(240); // Light gray highlight on white background
+        if (!readyToInteract && isSelected) {
+          p.fill(bgColor === 255 ? 240 : 60);
           p.noStroke();
           drawRoundedRect(p, menuX - 4, yPos - 10, menuWidth - 8, itemHeight - 2, 4);
         }
-        
-        // Draw language name (centered) - dark text on white background
-        p.fill(0); // Black text for white background
+        p.fill(readyToInteract ? 255 : (bgColor === 255 ? 0 : 255));
         p.noStroke();
         p.text(lang.native, buttonCenterX, yPos);
-        
         yPos += itemHeight;
       }
     }
-    
     p.pop();
   }
 
@@ -1096,11 +1139,12 @@ const sketch = p => {
       
       if (p.mouseX >= homeLeft && p.mouseX <= homeRight &&
           p.mouseY >= homeTop && p.mouseY <= homeBottom) {
-        // Reset to home page state
+        // Reset to home page state: solid background (no video), show home text
         showHomePage = true;
         hasStartedDrawing = false;
         languageMenuOpen = false;
-        
+        showVideoAsBackground = false; // Eliminate transparency — user sees white/dark interface, not video
+
         // Clear all drawn text and canvas
         drawnLetters = [];
         letters = '';
@@ -1144,7 +1188,7 @@ const sketch = p => {
       }
     }
     
-    if (showLanguageMenu && showHomePage && !hasStartedDrawing) {
+    if (showLanguageMenu && (showHomePage && !hasStartedDrawing || showVideoAsBackground)) {
       const menuX = p.width - 100 * uiScale;
       const menuY = 50 * uiScale;
       const itemHeight = 22 * uiScale;
@@ -1170,10 +1214,26 @@ const sketch = p => {
           if (clickedIndex >= 0 && clickedIndex < langCodes.length) {
             selectedLanguage = langCodes[clickedIndex];
             languageMenuOpen = false;
+            // Switch to white/solid screen so user can read "Generating text..." and "Generating audio..." while waiting
+            showVideoAsBackground = false;
             if (audioUrl) {
               URL.revokeObjectURL(audioUrl);
               audioUrl = null;
             }
+            audioReady = false;
+            textReady = false;
+            letters = '';
+            drawnLetters = [];
+            if (currentAudio) {
+              currentAudio.pause();
+              currentAudio.currentTime = 0;
+              currentAudio.onended = null;
+              currentAudio = null;
+            }
+            isAudioPlaying = false;
+            shouldLoopAudio = false;
+            // Immediately start generating text and audio in the new language (no need to press Space)
+            generateText();
             return;
           }
         }
@@ -1189,7 +1249,6 @@ const sketch = p => {
         }
       }
     } else {
-      // Close dropdown if not on home page
       languageMenuOpen = false;
     }
     

@@ -1,5 +1,15 @@
-/* I Am Not Saying — A Machine for Synthetic Expression - minimal styles */
+/* I Am Not Saying — A Machine for Synthetic Expression - liquid layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 main {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
 }

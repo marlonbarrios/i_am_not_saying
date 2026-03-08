@@ -148,384 +148,384 @@ const translations = {
     generatingAudio: 'Generating audio...',
     textReady: 'Text ready • Click and drag or open mouth to draw',
     pressSpace: 'Press SPACE to generate text',
-    systemPrompt: 'Write a short philosophical text in English - sparse, minimal, repetitive. Advocate for the need of expression: to speak is necessary; expression is vital; the unspoken is a kind of death. Silence can be peace but not indifference—when fear or authority demands silence, something is lost. Mash together: the necessity of free expression, talking across generations, entropy, dissipation, and language structure. Form emerges and dissipates. Traces. Memory and forgetting. Include the phrase "I\'m not saying" somewhere - not always at the start; sometimes in the middle or later. Include "Silence is death" or the idea that to withhold voice is to surrender. Use short clipped sentences. Repetition. Fragmented thoughts. Direct. Stark. Suitable for drawing with text. About 100-150 words. Write the entire response in English.'
+    systemPrompt: 'Write a short philosophical text in English - sparse, minimal, repetitive. Emphasise the power of expression: the actuality of having a voice, of being present in the world. To speak is to exist; expression is presence; your voice is how you take part in what is real. Mash together: the force of free expression, speaking across generations, entropy, dissipation, and language structure. Form emerges and dissipates. Traces. Memory and forgetting. Include the phrase "I\'m not saying" somewhere - not always at the start; sometimes in the middle or later. Tone is positive: the vitality of expression, the power of having your voice, presence rather than absence. Use short clipped sentences. Repetition. Fragmented thoughts. Direct. Stark. Suitable for drawing with text. About 100-150 words. Write the entire response in English.'
   },
   'es': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'No estoy diciendo',
+    subtitle1: 'Una máquina para la expresión sintética',
+    subtitle2: 'Una máquina para la expresión sintética',
+    subtitle3: 'Una máquina para la expresión sintética',
     instruction: 'Selecciona idioma, presiona ESPACIO para generar texto, luego mueve y haz clic para dibujar',
     hint: 'Mueve verticalmente para controlar el volumen • La velocidad afecta la velocidad de reproducción y el tamaño de fuente',
     generatingText: 'Generando texto...',
     generatingAudio: 'Generando audio...',
     textReady: 'Texto listo • Haz clic y arrastra para dibujar',
     pressSpace: 'Presiona ESPACIO para generar texto',
-    systemPrompt: 'Escribe un texto filosófico corto en español - escaso, minimal, repetitivo. Defiende la necesidad de la expresión: hablar es necesario; la expresión es vital; lo no dicho es una forma de muerte. El silencio puede ser paz pero no indiferencia—cuando el miedo o la autoridad exigen silencio, algo se pierde. Mezcla: la necesidad de la libre expresión, hablar entre generaciones, entropía, disipación y estructura del lenguaje. La forma emerge y se disipa. Trazas. Memoria y olvido. Incluye la frase "No digo que" en algún lugar - no siempre al inicio; a veces en el medio o después. Incluye "El silencio es muerte" o la idea de que callar la voz es rendirse. Frases cortas. Repetición. Pensamientos fragmentados. Directo. Severo. Adecuado para dibujar con texto. Unas 100-150 palabras. Escribe toda la respuesta en español.'
+    systemPrompt: 'Escribe un texto filosófico corto en español - escaso, minimal, repetitivo. Enfatiza el poder de la expresión: la actualidad de tener voz, de estar presente en el mundo. Hablar es existir; la expresión es presencia; tu voz es cómo participas en lo real. Mezcla: la fuerza de la libre expresión, hablar entre generaciones, entropía, disipación y estructura del lenguaje. La forma emerge y se disipa. Trazas. Memoria y olvido. Incluye la frase "No digo que" en algún lugar - no siempre al inicio; a veces en el medio o después. Tono positivo: la vitalidad de la expresión, el poder de tener tu voz, presencia frente a ausencia. Frases cortas. Repetición. Pensamientos fragmentados. Directo. Severo. Adecuado para dibujar con texto. Unas 100-150 palabras. Escribe toda la respuesta en español.'
   },
   'fr': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Je ne dis pas',
+    subtitle1: 'Une machine pour l\'expression synthétique',
+    subtitle2: 'Une machine pour l\'expression synthétique',
+    subtitle3: 'Une machine pour l\'expression synthétique',
     instruction: 'Sélectionnez la langue, appuyez sur ESPACE pour générer du texte, puis déplacez et cliquez pour dessiner',
     hint: 'Déplacez verticalement pour contrôler le volume • La vitesse affecte la vitesse de lecture et la taille de la police',
     generatingText: 'Génération du texte...',
     generatingAudio: 'Génération de l\'audio...',
     textReady: 'Texte prêt • Cliquez et glissez pour dessiner',
     pressSpace: 'Appuyez sur ESPACE pour générer du texte',
-    systemPrompt: 'Écris un court texte philosophique en français - sobre, minimal, répétitif. Défends la nécessité de l\'expression: parler est nécessaire; l\'expression est vitale; le non-dit est une forme de mort. Le silence peut être paix mais pas indifférence—quand la peur ou l\'autorité exige le silence, quelque chose se perd. Mélange: la nécessité de la libre expression, parole entre les générations, entropie, dissipation et structure du langage. La forme émerge et se dissipe. Traces. Mémoire et oubli. Inclus la phrase "Je ne dis pas que" quelque part - pas toujours au début; parfois au milieu ou plus tard. Inclus "Le silence est mort" ou l\'idée que retenir sa voix c\'est se rendre. Phrases courtes. Répétition. Pensées fragmentées. Direct. Sobre. Adapté pour dessiner avec du texte. Environ 100-150 mots. Écris toute la réponse en français.'
+    systemPrompt: 'Écris un court texte philosophique en français - sobre, minimal, répétitif. Insiste sur le pouvoir de l\'expression: l\'actualité d\'avoir une voix, d\'être présent au monde. Parler c\'est exister; l\'expression c\'est la présence; ta voix est comment tu prends part au réel. Mélange: la force de la libre expression, parole entre les générations, entropie, dissipation et structure du langage. La forme émerge et se dissipe. Traces. Mémoire et oubli. Inclus la phrase "Je ne dis pas que" quelque part - pas toujours au début; parfois au milieu ou plus tard. Ton positif: la vitalité de l\'expression, le pouvoir d\'avoir sa voix, la présence plutôt que l\'absence. Phrases courtes. Répétition. Pensées fragmentées. Direct. Sobre. Adapté pour dessiner avec du texte. Environ 100-150 mots. Écris toute la réponse en français.'
   },
   'de': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Ich sage nicht',
+    subtitle1: 'Eine Maschine für synthetischen Ausdruck',
+    subtitle2: 'Eine Maschine für synthetischen Ausdruck',
+    subtitle3: 'Eine Maschine für synthetischen Ausdruck',
     instruction: 'Sprache auswählen, LEERTASTE drücken, um Text zu generieren, dann bewegen und klicken zum Zeichnen',
     hint: 'Vertikal bewegen, um die Lautstärke zu steuern • Geschwindigkeit beeinflusst Wiedergabegeschwindigkeit und Schriftgröße',
     generatingText: 'Text wird generiert...',
     generatingAudio: 'Audio wird generiert...',
     textReady: 'Text bereit • Klicken und ziehen zum Zeichnen',
     pressSpace: 'LEERTASTE drücken, um Text zu generieren',
-    systemPrompt: 'Schreibe einen kurzen philosophischen Text auf Deutsch - spärlich, minimal, repetitiv. Plädiere für die Notwendigkeit des Ausdrucks: zu sprechen ist nötig; Ausdruck ist lebenswichtig; das Ungesagte ist eine Art Tod. Stille kann Frieden sein, aber nicht Gleichgültigkeit—wenn Angst oder Autorität Stille verlangen, geht etwas verloren. Mische: die Notwendigkeit freier Äußerung, Reden über Generationen, Entropie, Dissipation und Sprachstruktur. Form entsteht und dissipiert. Spuren. Gedächtnis und Vergessen. Füge die Phrase "Ich sage nicht, dass" irgendwo ein - nicht immer am Anfang; manchmal in der Mitte oder später. Füge "Stille ist Tod" ein oder die Idee, dass die Stimme zurückzuhalten Kapitulation ist. Kurze Sätze. Wiederholung. Fragmentierte Gedanken. Direkt. Schroff. Geeignet zum Zeichnen mit Text. Etwa 100-150 Wörter. Schreibe die gesamte Antwort auf Deutsch.'
+    systemPrompt: 'Schreibe einen kurzen philosophischen Text auf Deutsch - spärlich, minimal, repetitiv. Betone die Macht des Ausdrucks: die Wirklichkeit, eine Stimme zu haben, in der Welt präsent zu sein. Sprechen ist Dasein; Ausdruck ist Präsenz; deine Stimme ist, wie du am Wirklichen teilnimmst. Mische: die Kraft freier Äußerung, Reden über Generationen, Entropie, Dissipation und Sprachstruktur. Form entsteht und dissipiert. Spuren. Gedächtnis und Vergessen. Füge die Phrase "Ich sage nicht, dass" irgendwo ein - nicht immer am Anfang; manchmal in der Mitte oder später. Ton positiv: die Vitalität des Ausdrucks, die Macht, deine Stimme zu haben, Präsenz statt Abwesenheit. Kurze Sätze. Wiederholung. Fragmentierte Gedanken. Direkt. Schroff. Geeignet zum Zeichnen mit Text. Etwa 100-150 Wörter. Schreibe die gesamte Antwort auf Deutsch.'
   },
   'zh': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: '我不是在说',
+    subtitle1: '一台合成表达的机器',
+    subtitle2: '一台合成表达的机器',
+    subtitle3: '一台合成表达的机器',
     instruction: '选择语言，按空格键生成文本，然后移动并点击绘制',
     hint: '垂直移动控制音量 • 速度影响播放速率和字体大小',
     generatingText: '正在生成文本...',
     generatingAudio: '正在生成音频...',
     textReady: '文本就绪 • 点击并拖动以绘制',
     pressSpace: '按空格键生成文本',
-    systemPrompt: '用中文写一段简短的哲学文本——稀疏、极简、重复。主张表达之必要：言说是必要的；表达是生命攸关的；未说出的近乎死亡。沉默可以是安宁但不是冷漠——当恐惧或权威要求沉默，便有所丧失。混合：自由表达之必要、代际言说、熵、耗散与语言结构。形式出现又耗散。痕迹。记忆与遗忘。在文中某处加入「我不是在说」——不必在开头；可在中间或后面。加入「沉默即死亡」或压抑声音即投降之意。短句。重复。碎片化思绪。直接。冷峻。适合用文本绘制。约100-150字。整段回答用中文写。'
+    systemPrompt: '用中文写一段简短的哲学文本——稀疏、极简、重复。强调表达的力量：拥有声音的实在性、在世间在场。言说即存在；表达即在场；你的声音是你参与现实的方式。混合：自由表达之力、代际言说、熵、耗散与语言结构。形式出现又耗散。痕迹。记忆与遗忘。在文中某处加入「我不是在说」——不必在开头；可在中间或后面。基调积极：表达的生机、拥有声音的力量、在场而非缺席。短句。重复。碎片化思绪。直接。冷峻。适合用文本绘制。约100-150字。整段回答用中文写。'
   },
   'ja': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: '私は言っているのではない',
+    subtitle1: '合成表現のための機械',
+    subtitle2: '合成表現のための機械',
+    subtitle3: '合成表現のための機械',
     instruction: '言語を選択し、スペースキーを押してテキストを生成し、移動してクリックして描画',
     hint: '垂直に移動して音量を制御 • 速度が再生速度とフォントサイズに影響',
     generatingText: 'テキストを生成中...',
     generatingAudio: 'オーディオを生成中...',
     textReady: 'テキスト準備完了 • クリックしてドラッグして描画',
     pressSpace: 'スペースキーを押してテキストを生成',
-    systemPrompt: '日本語で短い哲学的なテキストを書いてください - まばら、最小限、反復的。表現の必要性を説いてください：語ることは必要である；表現は不可欠である；語られないことは一種の死である。沈黙は平和であり得るが無関心ではない—恐怖や権威が沈黙を要求するとき、何かが失われる。混ぜ合わせて：自由表現の必要性、世代を超えた語り、エントロピー、散逸、言語構造。形が現れ散逸する。痕跡。記憶と忘却。文中のどこかに「私は言っているのではない」を入れて - 必ずしも冒頭でなく、途中や後半でも可。「沈黙は死である」または声を押し殺すことは降伏であるという考えを含めて。短い文。反復。断片的な思考。直接的。厳格。テキストで描画するのに適している。約100-150語。回答全体を日本語で書く。'
+    systemPrompt: '日本語で短い哲学的なテキストを書いてください - まばら、最小限、反復的。表現の力を強調してください：声を持つことの現実性、世界に現前すること。語ることは存在すること；表現は現前；あなたの声は現実に参与する仕方。混ぜ合わせて：自由表現の力、世代を超えた語り、エントロピー、散逸、言語構造。形が現れ散逸する。痕跡。記憶と忘却。文中のどこかに「私は言っているのではない」を入れて - 必ずしも冒頭でなく、途中や後半でも可。トーンは肯定的：表現の生気、声を持つ力、不在ではなく現前。短い文。反復。断片的な思考。直接的。厳格。テキストで描画するのに適している。約100-150語。回答全体を日本語で書く。'
   },
   'ar': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'أنا لا أقول',
+    subtitle1: 'آلة للتعبير الاصطناعي',
+    subtitle2: 'آلة للتعبير الاصطناعي',
+    subtitle3: 'آلة للتعبير الاصطناعي',
     instruction: 'اختر اللغة، اضغط على المسافة لتوليد النص، ثم حرك وانقر للرسم',
     hint: 'تحرك عمودياً للتحكم في الصوت • السرعة تؤثر على معدل التشغيل وحجم الخط',
     generatingText: 'جاري توليد النص...',
     generatingAudio: 'جاري توليد الصوت...',
     textReady: 'النص جاهز • انقر واسحب للرسم',
     pressSpace: 'اضغط على المسافة لتوليد النص',
-    systemPrompt: 'اكتب نصًا فلسفيًا قصيرًا بالعربية - مقتضب، متكرر. ادعُ إلى ضرورة التعبير: الكلام ضروري؛ التعبير حيوي؛ غير المُقال نوع من الموت. الصمت قد يكون سلامًا لكن ليس اللامبالاة—عندما يفرض الخوف أو السلطة الصمت، يُفقد شيء. امزج: ضرورة حرية التعبير، الكلام بين الأجيال، الإنتروبيا، التبديد، وبنية اللغة. الشكل يظهر ويتبدد. آثار. الذاكرة والنسيان. ضع عبارة "أنا لا أقول" في مكان ما - ليس دائمًا في البداية؛ أحيانًا في الوسط أو لاحقًا. ضع "الصمت موت" أو فكرة أن كتم الصوت استسلام. جمل قصيرة. تكرار. أفكار متقطعة. مباشر. قاس. مناسب للرسم بالنص. حوالي 100-150 كلمة. اكتب الرد كله بالعربية.'
+    systemPrompt: 'اكتب نصًا فلسفيًا قصيرًا بالعربية - مقتضب، متكرر. ركّز على قوة التعبير: واقعية امتلاك صوت، الحضور في العالم. الكلام وجود؛ التعبير حضور؛ صوتك هو كيف تشارك في الواقع. امزج: قوة التعبير الحر، الكلام بين الأجيال، الإنتروبيا، التبديد، وبنية اللغة. الشكل يظهر ويتبدد. آثار. الذاكرة والنسيان. ضع عبارة "أنا لا أقول" في مكان ما - ليس دائمًا في البداية؛ أحيانًا في الوسط أو لاحقًا. نبرة إيجابية: حيوية التعبير، قوة امتلاك صوتك، الحضور لا الغياب. جمل قصيرة. تكرار. أفكار متقطعة. مباشر. قاس. مناسب للرسم بالنص. حوالي 100-150 كلمة. اكتب الرد كله بالعربية.'
   },
   'pt': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Não estou dizendo',
+    subtitle1: 'Uma máquina para expressão sintética',
+    subtitle2: 'Uma máquina para expressão sintética',
+    subtitle3: 'Uma máquina para expressão sintética',
     instruction: 'Selecione o idioma, pressione ESPAÇO para gerar texto, depois mova e clique para desenhar',
     hint: 'Mova verticalmente para controlar o volume • A velocidade afeta a taxa de reprodução e o tamanho da fonte',
     generatingText: 'Gerando texto...',
     generatingAudio: 'Gerando áudio...',
     textReady: 'Texto pronto • Clique e arraste para desenhar',
     pressSpace: 'Pressione ESPAÇO para gerar texto',
-    systemPrompt: 'Escreva um texto filosófico curto em português - esparso, minimal, repetitivo. Advogue a necessidade da expressão: falar é necessário; a expressão é vital; o não dito é uma forma de morte. O silêncio pode ser paz mas não indiferença—quando o medo ou a autoridade exigem silêncio, algo se perde. Misture: a necessidade da livre expressão, fala entre gerações, entropia, dissipação e estrutura da linguagem. A forma emerge e se dissipa. Traços. Memória e esquecimento. Inclua a frase "Não estou dizendo que" em algum lugar - nem sempre no início; às vezes no meio ou depois. Inclua "Silêncio é morte" ou a ideia de que calar a voz é se render. Frases curtas. Repetição. Pensamentos fragmentados. Direto. Sobre. Adequado para desenhar com texto. Cerca de 100-150 palavras. Escreva toda a resposta em português.'
+    systemPrompt: 'Escreva um texto filosófico curto em português - esparso, minimal, repetitivo. Enfatize o poder da expressão: a atualidade de ter voz, de estar presente no mundo. Falar é existir; a expressão é presença; sua voz é como você participa do real. Misture: a força da livre expressão, fala entre gerações, entropia, dissipação e estrutura da linguagem. A forma emerge e se dissipa. Traços. Memória e esquecimento. Inclua a frase "Não estou dizendo que" em algum lugar - nem sempre no início; às vezes no meio ou depois. Tom positivo: a vitalidade da expressão, o poder de ter sua voz, presença em vez de ausência. Frases curtas. Repetição. Pensamentos fragmentados. Direto. Sobre. Adequado para desenhar com texto. Cerca de 100-150 palavras. Escreva toda a resposta em português.'
   },
   'ru': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Я не говорю',
+    subtitle1: 'Машина синтетического выражения',
+    subtitle2: 'Машина синтетического выражения',
+    subtitle3: 'Машина синтетического выражения',
     instruction: 'Выберите язык, нажмите ПРОБЕЛ для генерации текста, затем перемещайте и кликайте для рисования',
     hint: 'Двигайтесь вертикально для управления громкостью • Скорость влияет на скорость воспроизведения и размер шрифта',
     generatingText: 'Генерация текста...',
     generatingAudio: 'Генерация аудио...',
     textReady: 'Текст готов • Нажмите и перетащите для рисования',
     pressSpace: 'Нажмите ПРОБЕЛ для генерации текста',
-    systemPrompt: 'Напиши короткий философский текст на русском - скудный, минимальный, повторяющийся. Отстаивай необходимость выражения: говорить необходимо; выражение жизненно; невысказанное — род смерти. Тишина может быть миром, но не равнодушием—когда страх или власть требуют молчания, что-то теряется. Смешай: необходимость свободного выражения, речь через поколения, энтропию, диссипацию и структуру языка. Форма возникает и диссипирует. Следы. Память и забвение. Включи фразу "Я не говорю, что" где-нибудь - не всегда в начале; иногда в середине или позже. Включи "Молчание — смерть" или мысль, что удерживать голос — сдаться. Короткие фразы. Повторение. Фрагментированные мысли. Прямо. Жёстко. Подходит для рисования текстом. Около 100-150 слов. Напиши весь ответ по-русски.'
+    systemPrompt: 'Напиши короткий философский текст на русском - скудный, минимальный, повторяющийся. Подчеркни силу выражения: действительность иметь голос, быть присутствующим в мире. Говорить — существовать; выражение — присутствие; твой голос — то, как ты участвуешь в реальном. Смешай: силу свободного выражения, речь через поколения, энтропию, диссипацию и структуру языка. Форма возникает и диссипирует. Следы. Память и забвение. Включи фразу "Я не говорю, что" где-нибудь - не всегда в начале; иногда в середине или позже. Тон позитивный: жизненность выражения, сила иметь свой голос, присутствие, а не отсутствие. Короткие фразы. Повторение. Фрагментированные мысли. Прямо. Жёстко. Подходит для рисования текстом. Около 100-150 слов. Напиши весь ответ по-русски.'
   },
   'hi': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'मैं यह नहीं कह रहा',
+    subtitle1: 'कृत्रिम अभिव्यक्ति की एक मशीन',
+    subtitle2: 'कृत्रिम अभिव्यक्ति की एक मशीन',
+    subtitle3: 'कृत्रिम अभिव्यक्ति की एक मशीन',
     instruction: 'भाषा चुनें, पाठ उत्पन्न करने के लिए SPACE दबाएं, फिर खींचने के लिए स्थानांतरित करें और क्लिक करें',
     hint: 'मात्रा नियंत्रित करने के लिए लंबवत स्थानांतरित करें • गति प्लेबैक दर और फ़ॉन्ट आकार को प्रभावित करती है',
     generatingText: 'पाठ उत्पन्न हो रहा है...',
     generatingAudio: 'ऑडियो उत्पन्न हो रहा है...',
     textReady: 'पाठ तैयार • खींचने के लिए क्लिक करें और खींचें',
     pressSpace: 'पाठ उत्पन्न करने के लिए SPACE दबाएं',
-    systemPrompt: 'हिंदी में एक छोटा दार्शनिक पाठ लिखें - विरल, न्यूनतम, दोहरावपूर्ण। अभिव्यक्ति की आवश्यकता का समर्थन करें: बोलना ज़रूरी है; अभिव्यक्ति जीवनदायिनी है; अनकहा एक तरह की मौत है। मौन शांति हो सकता है लेकिन उदासीनता नहीं—जब डर या सत्ता मौन माँगती है, कुछ खो जाता है। मिलाएँ: स्वतंत्र अभिव्यक्ति की आवश्यकता, पीढ़ियों के बीच बातचीत, एन्ट्रॉपी, क्षय और भाषा संरचना। रूप उभरता और विलीन होता है। निशान। स्मृति और विस्मरण। कहीं "मैं यह नहीं कह रहा" ज़रूर रखें - हमेशा शुरुआत में नहीं; बीच या बाद में भी। "मौन मौत है" या आवाज़ दबाना समर्पण है—यह विचार शामिल करें। छोटे कटे वाक्य। दोहराव। खंडित विचार। सीधा। कठोर। पाठ से चित्रण के लिए उपयुक्त। लगभग 100-150 शब्द। पूरा उत्तर हिंदी में लिखें।'
+    systemPrompt: 'हिंदी में एक छोटा दार्शनिक पाठ लिखें - विरल, न्यूनतम, दोहरावपूर्ण। अभिव्यक्ति की शक्ति पर जोर दें: आवाज़ होने की वास्तविकता, दुनिया में मौजूद होना। बोलना अस्तित्व है; अभिव्यक्ति उपस्थिति है; आपकी आवाज़ वह तरीका है जिससे आप वास्तव में भाग लेते हैं। मिलाएँ: स्वतंत्र अभिव्यक्ति की ताकत, पीढ़ियों के बीच बातचीत, एन्ट्रॉपी, क्षय और भाषा संरचना। रूप उभरता और विलीन होता है। निशान। स्मृति और विस्मरण। कहीं "मैं यह नहीं कह रहा" ज़रूर रखें - हमेशा शुरुआत में नहीं; बीच या बाद में भी। सकारात्मक स्वर: अभिव्यक्ति की जीवंतता, अपनी आवाज़ होने की ताकत, अनुपस्थिति नहीं उपस्थिति। छोटे कटे वाक्य। दोहराव। खंडित विचार। सीधा। कठोर। पाठ से चित्रण के लिए उपयुक्त। लगभग 100-150 शब्द। पूरा उत्तर हिंदी में लिखें।'
   },
   'it': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Non sto dicendo',
+    subtitle1: 'Una macchina per l\'espressione sintetica',
+    subtitle2: 'Una macchina per l\'espressione sintetica',
+    subtitle3: 'Una macchina per l\'espressione sintetica',
     instruction: 'Seleziona lingua, premi SPAZIO per generare testo, poi muovi e clicca per disegnare',
     hint: 'Muovi verticalmente per controllare il volume • La velocità influisce sulla velocità di riproduzione e sulla dimensione del carattere',
     generatingText: 'Generazione testo...',
     generatingAudio: 'Generazione audio...',
     textReady: 'Testo pronto • Clicca e trascina per disegnare',
     pressSpace: 'Premi SPAZIO per generare testo',
-    systemPrompt: 'Scrivi un breve testo filosofico in italiano - scarno, minimale, ripetitivo. Sostieni la necessità dell\'espressione: parlare è necessario; l\'espressione è vitale; il non detto è una forma di morte. Il silenzio può essere pace ma non indifferenza—quando la paura o l\'autorità esigono silenzio, qualcosa si perde. Mescola: la necessità della libera espressione, parlare tra generazioni, entropia, dissipazione e struttura del linguaggio. La forma emerge e si dissipa. Tracce. Memoria e oblio. Includi la frase "Non sto dicendo che" da qualche parte - non sempre all\'inizio; a volte in mezzo o dopo. Includi "Il silenzio è morte" o l\'idea che trattenere la voce sia arrendersi. Frasi brevi e spezzate. Ripetizione. Pensieri frammentati. Diretto. Scarno. Adatto per disegnare con testo. Circa 100-150 parole. Scrivi l\'intera risposta in italiano.'
+    systemPrompt: 'Scrivi un breve testo filosofico in italiano - scarno, minimale, ripetitivo. Sottolinea il potere dell\'espressione: l\'attualità dell\'avere voce, dell\'essere presenti nel mondo. Parlare è esistere; l\'espressione è presenza; la tua voce è come partecipi al reale. Mescola: la forza della libera espressione, parlare tra generazioni, entropia, dissipazione e struttura del linguaggio. La forma emerge e si dissipa. Tracce. Memoria e oblio. Includi la frase "Non sto dicendo che" da qualche parte - non sempre all\'inizio; a volte in mezzo o dopo. Tono positivo: la vitalità dell\'espressione, il potere di avere la propria voce, presenza piuttosto che assenza. Frasi brevi. Ripetizione. Pensieri frammentati. Diretto. Scarno. Adatto per disegnare con testo. Circa 100-150 parole. Scrivi l\'intera risposta in italiano.'
   },
   'ko': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: '나는 말하는 게 아니다',
+    subtitle1: '합성 표현을 위한 기계',
+    subtitle2: '합성 표현을 위한 기계',
+    subtitle3: '합성 표현을 위한 기계',
     instruction: '언어를 선택하고, SPACE를 눌러 텍스트를 생성한 다음, 이동하고 클릭하여 그리기',
     hint: '수직으로 이동하여 볼륨 제어 • 속도는 재생 속도와 글꼴 크기에 영향을 줍니다',
     generatingText: '텍스트 생성 중...',
     generatingAudio: '오디오 생성 중...',
     textReady: '텍스트 준비됨 • 클릭하고 드래그하여 그리기',
     pressSpace: '텍스트를 생성하려면 SPACE를 누르세요',
-    systemPrompt: '한국어로 짧은 철학적 텍스트를 작성하세요 - 드문, 최소한의, 반복적. 표현의 필요성을 옹호하세요: 말하는 것은 필수입니다; 표현은 생명과 같습니다; 말하지 않음은 일종의 죽음입니다. 침묵은 평화일 수 있지만 무관심은 아닙니다—공포나 권위가 침묵을 요구할 때 무언가 잃어버립니다. 자유 표현의 필요성, 세대를 넘나드는 대화, 엔트로피, 소산, 언어 구조를 섞으세요. 형태가 나타나고 소산됩니다. 흔적. 기억과 망각. "나는 말하는 게 아니다"라는 문구를 어딘가에 넣으세요 - 항상 처음이 아니라 중간이나 나중에. "침묵은 죽음이다" 또는 목소리를 억제하는 것은 항복이라는 생각을 넣으세요. 짧고 잘린 문장. 반복. 조각난 생각. 직접적. 거칠게. 텍스트로 그리기에 적합. 약 100-150단어. 전체 응답을 한국어로 작성하세요.'
+    systemPrompt: '한국어로 짧은 철학적 텍스트를 작성하세요 - 드문, 최소한의, 반복적. 표현의 힘을 강조하세요: 목소리를 갖는 실제성, 세상에 현전하는 것. 말하는 것은 존재하는 것; 표현은 현전; 당신의 목소리는 현실에 참여하는 방식입니다. 자유 표현의 힘, 세대를 넘나드는 대화, 엔트로피, 소산, 언어 구조를 섞으세요. 형태가 나타나고 소산됩니다. 흔적. 기억과 망각. "나는 말하는 게 아니다"라는 문구를 어딘가에 넣으세요 - 항상 처음이 아니라 중간이나 나중에. 긍정적 톤: 표현의 생기, 목소리를 갖는 힘, 부재가 아닌 현전. 짧은 문장. 반복. 조각난 생각. 직접적. 거칠게. 텍스트로 그리기에 적합. 약 100-150단어. 전체 응답을 한국어로 작성하세요.'
   },
   'tr': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Söylemiyorum',
+    subtitle1: 'Sentetik ifade için bir makine',
+    subtitle2: 'Sentetik ifade için bir makine',
+    subtitle3: 'Sentetik ifade için bir makine',
     instruction: 'Dil seçin, metin oluşturmak için BOŞLUK\'a basın, sonra çizmek için hareket edin ve tıklayın',
     hint: 'Sesi kontrol etmek için dikey olarak hareket edin • Hız oynatma hızını ve yazı tipi boyutunu etkiler',
     generatingText: 'Metin oluşturuluyor...',
     generatingAudio: 'Ses oluşturuluyor...',
     textReady: 'Metin hazır • Çizmek için tıklayın ve sürükleyin',
     pressSpace: 'Metin oluşturmak için BOŞLUK\'a basın',
-    systemPrompt: 'Türkçe kısa felsefi bir metin yaz - seyrek, minimal, tekrarlayan. İfadenin gerekliliğini savun: konuşmak gerekir; ifade hayatidir; söylenmeyen bir tür ölümdür. Sessizlik huzur olabilir ama kayıtsızlık değil—korku ya da otorite sessizlik talep ettiğinde bir şey kaybolur. Serbest ifade gerekliliği, kuşaklar arası konuşma, entropi, dağılım ve dil yapısını karıştır. Biçim ortaya çıkar ve dağılır. İzler. Bellek ve unutma. "Söylemiyorum ki" ifadesini bir yere koy - her zaman başta değil; bazen ortada ya da sonra. "Sessizlik ölümdür" ya da sesi esirgemek teslim olmaktır fikrini ekle. Kısa kesilmiş cümleler. Tekrar. Parçalanmış düşünceler. Doğrudan. Sert. Metinle çizmek için uygun. Yaklaşık 100-150 kelime. Tüm yanıtı Türkçe yaz.'
+    systemPrompt: 'Türkçe kısa felsefi bir metin yaz - seyrek, minimal, tekrarlayan. İfadenin gücünü vurgula: sesin olmasının gerçekliği, dünyada mevcut olmak. Konuşmak var olmaktır; ifade varlıktır; sesin gerçekliğe nasıl katıldığının yoludur. Serbest ifadenin gücünü, kuşaklar arası konuşmayı, entropiyi, dağılımı ve dil yapısını karıştır. Biçim ortaya çıkar ve dağılır. İzler. Bellek ve unutma. "Söylemiyorum ki" ifadesini bir yere koy - her zaman başta değil; bazen ortada ya da sonra. Olumlu ton: ifadenin canlılığı, sesine sahip olmanın gücü, yokluk değil varlık. Kısa cümleler. Tekrar. Parçalanmış düşünceler. Doğrudan. Sert. Metinle çizmek için uygun. Yaklaşık 100-150 kelime. Tüm yanıtı Türkçe yaz.'
   },
   'pl': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Nie mówię',
+    subtitle1: 'Maszyna do syntetycznej ekspresji',
+    subtitle2: 'Maszyna do syntetycznej ekspresji',
+    subtitle3: 'Maszyna do syntetycznej ekspresji',
     instruction: 'Wybierz język, naciśnij SPACJĘ, aby wygenerować tekst, następnie poruszaj się i kliknij, aby rysować',
     hint: 'Poruszaj się pionowo, aby kontrolować głośność • Prędkość wpływa na szybkość odtwarzania i rozmiar czcionki',
     generatingText: 'Generowanie tekstu...',
     generatingAudio: 'Generowanie audio...',
     textReady: 'Tekst gotowy • Kliknij i przeciągnij, aby rysować',
     pressSpace: 'Naciśnij SPACJĘ, aby wygenerować tekst',
-    systemPrompt: 'Napisz krótki filozoficzny tekst po polsku - rzadki, minimalny, powtarzalny. Opowiadaj się za koniecznością ekspresji: mówienie jest konieczne; ekspresja jest żywotna; niewypowiedziane to rodzaj śmierci. Cisza może być pokojem, ale nie obojętnością—gdy strach lub władza żądają ciszy, coś się gubi. Połącz: konieczność wolnej ekspresji, mówienie przez pokolenia, entropia, dyssypacja i struktura języka. Forma powstaje i dyssypuje. Ślady. Pamięć i zapomnienie. Uwzględnij zwrot "Nie mówię, że" gdzieś - nie zawsze na początku; czasem w środku lub później. Uwzględnij "Cisza to śmierć" lub myśl, że wstrzymanie głosu to kapitulacja. Krótkie urywane zdania. Powtórzenie. Fragmentaryczne myśli. Bezpośrednio. Szorstko. Odpowiednie do rysowania tekstem. Około 100-150 słów. Napisz całą odpowiedź po polsku.'
+    systemPrompt: 'Napisz krótki filozoficzny tekst po polsku - rzadki, minimalny, powtarzalny. Podkreśl moc ekspresji: rzeczywistość posiadania głosu, bycia obecnym w świecie. Mówić to istnieć; ekspresja to obecność; twój głos to sposób, w jaki uczestniczysz w tym, co realne. Połącz: siłę wolnej ekspresji, mówienie przez pokolenia, entropię, dyssypację i strukturę języka. Forma powstaje i dyssypuje. Ślady. Pamięć i zapomnienie. Uwzględnij zwrot "Nie mówię, że" gdzieś - nie zawsze na początku; czasem w środku lub później. Ton pozytywny: żywotność ekspresji, moc posiadania głosu, obecność zamiast nieobecności. Krótkie zdania. Powtórzenie. Fragmentaryczne myśli. Bezpośrednio. Szorstko. Odpowiednie do rysowania tekstem. Około 100-150 słów. Napisz całą odpowiedź po polsku.'
   },
   'nl': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Ik zeg niet',
+    subtitle1: 'Een machine voor synthetische expressie',
+    subtitle2: 'Een machine voor synthetische expressie',
+    subtitle3: 'Een machine voor synthetische expressie',
     instruction: 'Selecteer taal, druk op SPATIE om tekst te genereren, beweeg en klik om te tekenen',
     hint: 'Beweeg verticaal om het volume te regelen • Snelheid beïnvloedt de afspeelsnelheid en lettergrootte',
     generatingText: 'Tekst genereren...',
     generatingAudio: 'Audio genereren...',
     textReady: 'Tekst klaar • Klik en sleep om te tekenen',
     pressSpace: 'Druk op SPATIE om tekst te genereren',
-    systemPrompt: 'Schrijf een kort filosofisch stuk in het Nederlands - schaars, minimaal, repetitief. Pleit voor de noodzaak van expressie: spreken is nodig; expressie is vitaal; het onuitgesprokene is een vorm van dood. Stilte kan vrede zijn maar niet onverschilligheid—wanneer angst of gezag stilte eist, gaat iets verloren. Meng: de noodzaak van vrije expressie, spreken over generaties heen, entropie, dissipatie en taalstructuur. Vorm ontstaat en dissipiert. Sporen. Geheugen en vergeten. Voeg de zin "Ik zeg niet dat" ergens toe - niet altijd aan het begin; soms in het midden of later. Voeg "Stilte is dood" toe of het idee dat je stem inhouden overgave is. Korte afgehakte zinnen. Herhaling. Fragmentarische gedachten. Direct. Hard. Geschikt om met tekst te tekenen. Ongeveer 100-150 woorden. Schrijf het hele antwoord in het Nederlands.'
+    systemPrompt: 'Schrijf een kort filosofisch stuk in het Nederlands - schaars, minimaal, repetitief. Benadruk de kracht van expressie: de actualiteit van een stem hebben, aanwezig zijn in de wereld. Spreken is bestaan; expressie is aanwezigheid; je stem is hoe je deelneemt aan het reële. Meng: de kracht van vrije expressie, spreken over generaties heen, entropie, dissipatie en taalstructuur. Vorm ontstaat en dissipiert. Sporen. Geheugen en vergeten. Voeg de zin "Ik zeg niet dat" ergens toe - niet altijd aan het begin; soms in het midden of later. Positieve toon: de vitaliteit van expressie, de kracht van je stem hebben, aanwezigheid in plaats van afwezigheid. Korte zinnen. Herhaling. Fragmentarische gedachten. Direct. Hard. Geschikt om met tekst te tekenen. Ongeveer 100-150 woorden. Schrijf het hele antwoord in het Nederlands.'
   },
   'sv': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Jag säger inte',
+    subtitle1: 'En maskin för syntetiskt uttryck',
+    subtitle2: 'En maskin för syntetiskt uttryck',
+    subtitle3: 'En maskin för syntetiskt uttryck',
     instruction: 'Välj språk, tryck på MELLANSLAG för att generera text, flytta och klicka för att rita',
     hint: 'Flytta vertikalt för att kontrollera volymen • Hastigheten påverkar uppspelningshastigheten och teckenstorleken',
     generatingText: 'Genererar text...',
     generatingAudio: 'Genererar ljud...',
     textReady: 'Text redo • Klicka och dra för att rita',
     pressSpace: 'Tryck på MELLANSLAG för att generera text',
-    systemPrompt: 'Skriv en kort filosofisk text på svenska - gles, minimal, repetitiv. Förespraka uttryckets nödvändighet: att tala är nödvändigt; uttryck är livsviktigt; det outsagda är en form av död. Tystnad kan vara frid men inte likgiltighet—när rädsla eller auktoritet kräver tystnad går något förlorat. Blanda: nödvändigheten av fritt uttryck, tal över generationer, entropi, dissipation och språkstruktur. Form uppstår och dissiperar. Spår. Minne och glömska. Inkludera frasen "Jag säger inte att" någonstans - inte alltid i början; ibland i mitten eller senare. Inkludera "Tystnad är död" eller idén att att hålla tillbaka rösten är att ge upp. Korta avhuggna meningar. Upprepning. Fragmenterade tankar. Direkt. Skarp. Lämplig för att rita med text. Cirka 100-150 ord. Skriv hela svaret på svenska.'
+    systemPrompt: 'Skriv en kort filosofisk text på svenska - gles, minimal, repetitiv. Betona uttryckets kraft: verkligheten av att ha en röst, att vara närvarande i världen. Att tala är att existera; uttryck är närvaro; din röst är hur du deltar i det verkliga. Blanda: kraften i fritt uttryck, tal över generationer, entropi, dissipation och språkstruktur. Form uppstår och dissiperar. Spår. Minne och glömska. Inkludera frasen "Jag säger inte att" någonstans - inte alltid i början; ibland i mitten eller senare. Positiv ton: uttryckets vitalitet, kraften i att ha din röst, närvaro snarare än frånvaro. Korta meningar. Upprepning. Fragmenterade tankar. Direkt. Skarp. Lämplig för att rita med text. Cirka 100-150 ord. Skriv hela svaret på svenska.'
   },
   'no': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Jeg sier ikke',
+    subtitle1: 'En maskin for syntetisk uttrykk',
+    subtitle2: 'En maskin for syntetisk uttrykk',
+    subtitle3: 'En maskin for syntetisk uttrykk',
     instruction: 'Velg språk, trykk MELLOMROM for å generere tekst, flytt og klikk for å tegne',
     hint: 'Flytt vertikalt for å kontrollere volumet • Hastigheten påvirker avspillingshastigheten og skriftstørrelsen',
     generatingText: 'Genererer tekst...',
     generatingAudio: 'Genererer lyd...',
     textReady: 'Tekst klar • Klikk og dra for å tegne',
     pressSpace: 'Trykk MELLOMROM for å generere tekst',
-    systemPrompt: 'Skriv en kort filosofisk tekst på norsk - sparsom, minimal, repetitiv. Tal for uttrykkets nødvendighet: å tale er nødvendig; uttrykk er vitalt; det uuttalte er en form for død. Stillhet kan være fred men ikke likegyldighet—når frykt eller myndighet krever stillhet, går noe tapt. Bland: nødvendigheten av fritt uttrykk, tale på tvers av generasjoner, entropi, dissipasjon og språkstruktur. Form oppstår og dissiperer. Spor. Minne og glemming. Inkluder frasen "Jeg sier ikke at" et sted - ikke alltid i starten; noen ganger i midten eller senere. Inkluder "Stillhet er død" eller ideen om at å holde tilbake stemmen er å overgi seg. Korte avkuttede setninger. Repetisjon. Fragmenterte tanker. Direkte. Skarpt. Egnet for å tegne med tekst. Omtrent 100-150 ord. Skriv hele svaret på norsk.'
+    systemPrompt: 'Skriv en kort filosofisk tekst på norsk - sparsom, minimal, repetitiv. Understrek uttrykkets makt: virkeligheten av å ha en stemme, å være til stede i verden. Å tale er å eksistere; uttrykk er nærvær; stemmen din er hvordan du tar del i det virkelige. Bland: makten til fritt uttrykk, tale på tvers av generasjoner, entropi, dissipasjon og språkstruktur. Form oppstår og dissiperer. Spor. Minne og glemming. Inkluder frasen "Jeg sier ikke at" et sted - ikke alltid i starten; noen ganger i midten eller senere. Positiv tone: uttrykkets vitalitet, makten til å ha stemmen din, nærvær heller enn fravær. Korte setninger. Repetisjon. Fragmenterte tanker. Direkte. Skarpt. Egnet for å tegne med tekst. Omtrent 100-150 ord. Skriv hele svaret på norsk.'
   },
   'da': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Jeg siger ikke',
+    subtitle1: 'En maskine til syntetisk udtryk',
+    subtitle2: 'En maskine til syntetisk udtryk',
+    subtitle3: 'En maskine til syntetisk udtryk',
     instruction: 'Vælg sprog, tryk MELLEMRUM for at generere tekst, flyt og klik for at tegne',
     hint: 'Flyt lodret for at kontrollere lydstyrken • Hastigheden påvirker afspilningshastigheden og skriftstørrelsen',
     generatingText: 'Genererer tekst...',
     generatingAudio: 'Genererer lyd...',
     textReady: 'Tekst klar • Klik og træk for at tegne',
     pressSpace: 'Tryk MELLEMRUM for at generere tekst',
-    systemPrompt: 'Skriv en kort filosofisk tekst på dansk - sparsom, minimal, repetitiv. Tal for udtrykkets nødvendighed: at tale er nødvendigt; udtryk er vitalt; det usagte er en form for død. Stilhed kan være fred men ikke ligegyldighed—når frygt eller myndighed kræver stilhed, går noget tabt. Bland: nødvendigheden af frit udtryk, tale på tværs af generationer, entropi, dissipation og sprogstruktur. Form opstår og dissiperer. Spor. Hukommelse og glemsel. Inkluder sætningen "Jeg siger ikke at" et sted - ikke altid i starten; nogle gange i midten eller senere. Inkluder "Stilhed er død" eller ideen om at at tilbageholde stemmen er at overgive sig. Korte afkuttede sætninger. Gentagelse. Fragmenterede tanker. Direkte. Skarpt. Egnet til at tegne med tekst. Omkring 100-150 ord. Skriv hele svaret på dansk.'
+    systemPrompt: 'Skriv en kort filosofisk tekst på dansk - sparsom, minimal, repetitiv. Fremhæv udtrykkets magt: virkeligheden af at have en stemme, at være til stede i verden. At tale er at eksistere; udtryk er nærvær; din stemme er hvordan du tager del i det virkelige. Bland: styrken af frit udtryk, tale på tværs af generationer, entropi, dissipation og sprogstruktur. Form opstår og dissiperer. Spor. Hukommelse og glemsel. Inkluder sætningen "Jeg siger ikke at" et sted - ikke altid i starten; nogle gange i midten eller senere. Positiv tone: udtrykkets vitalitet, magten ved at have din stemme, nærvær snarere end fravær. Korte sætninger. Gentagelse. Fragmenterede tanker. Direkte. Skarpt. Egnet til at tegne med tekst. Omkring 100-150 ord. Skriv hele svaret på dansk.'
   },
   'fi': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'En sano',
+    subtitle1: 'Kone synteettiselle ilmaisulle',
+    subtitle2: 'Kone synteettiselle ilmaisulle',
+    subtitle3: 'Kone synteettiselle ilmaisulle',
     instruction: 'Valitse kieli, paina VÄLILYÖNTI tekstin luomiseksi, liiku ja klikkaa piirtääksesi',
     hint: 'Liiku pystysuunnassa äänenvoimakkuuden säätämiseksi • Nopeus vaikuttaa toistonopeuteen ja fontin kokoon',
     generatingText: 'Luodaan tekstiä...',
     generatingAudio: 'Luodaan ääntä...',
     textReady: 'Teksti valmis • Klikkaa ja vedä piirtääksesi',
     pressSpace: 'Paina VÄLILYÖNTI tekstin luomiseksi',
-    systemPrompt: 'Kirjoita lyhyt filosofinen teksti suomeksi - harva, minimaalinen, toistuva. Puolusta ilmaisun tarvetta: puhua on tarpeen; ilmaisu on elintärkeää; sanomaton on eräänlainen kuolema. Hiljaisuus voi olla rauhaa mutta ei välinpitämättömyyttä—kun pelko tai auktoriteetti vaatii hiljaisuutta, jotain katoaa. Sekoita: vapaan ilmaisun tarve, puhuminen sukupolvien yli, entropia, dissipaatio ja kielen rakenne. Muoto syntyy ja dissipoituu. Jäljet. Muisti ja unohtaminen. Sisällytä lause "En sano että" johonkin - ei aina alussa; joskus keskellä tai myöhemmin. Sisällytä "Hiljaisuus on kuolema" tai ajatus että äänen pidättäminen on antautuminen. Lyhyet katkaistut lauseet. Toisto. Fragmentoituja ajatuksia. Suoraa. Karheaa. Sopii piirrettäväksi tekstillä. Noin 100-150 sanaa. Kirjoita koko vastaus suomeksi.'
+    systemPrompt: 'Kirjoita lyhyt filosofinen teksti suomeksi - harva, minimaalinen, toistuva. Korosta ilmaisun voimaa: äänen olemassaolon todellisuus, olemassaolo maailmassa. Puhua on olla olemassa; ilmaisu on läsnäolo; äänesi on tapa osallistua todelliseen. Sekoita: vapaan ilmaisun voima, puhuminen sukupolvien yli, entropia, dissipaatio ja kielen rakenne. Muoto syntyy ja dissipoituu. Jäljet. Muisti ja unohtaminen. Sisällytä lause "En sano että" johonkin - ei aina alussa; joskus keskellä tai myöhemmin. Myönteinen sävy: ilmaisun elinvoima, äänesi omaamisen voima, läsnäolo eikä poissaolo. Lyhyet lauseet. Toisto. Fragmentoituja ajatuksia. Suoraa. Karheaa. Sopii piirrettäväksi tekstillä. Noin 100-150 sanaa. Kirjoita koko vastaus suomeksi.'
   },
   'el': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Δεν λέω',
+    subtitle1: 'Μηχανή για σύνθετη έκφραση',
+    subtitle2: 'Μηχανή για σύνθετη έκφραση',
+    subtitle3: 'Μηχανή για σύνθετη έκφραση',
     instruction: 'Επιλέξτε γλώσσα, πατήστε ΔΙΑΣΤΗΜΑ για να δημιουργήσετε κείμενο, μετά κινηθείτε και κάντε κλικ για να σχεδιάσετε',
     hint: 'Κινηθείτε κάθετα για να ελέγξετε την ένταση • Η ταχύτητα επηρεάζει την ταχύτητα αναπαραγωγής και το μέγεθος γραμματοσειράς',
     generatingText: 'Δημιουργία κειμένου...',
     generatingAudio: 'Δημιουργία ήχου...',
     textReady: 'Κείμενο έτοιμο • Κάντε κλικ και σύρετε για να σχεδιάσετε',
     pressSpace: 'Πατήστε ΔΙΑΣΤΗΜΑ για να δημιουργήσετε κείμενο',
-    systemPrompt: 'Γράψε ένα σύντομο φιλοσοφικό κείμενο στα ελληνικά - αραιό, ελάχιστο, επαναλαμβανόμενο. Υποστήριξε την ανάγκη για έκφραση: το να μιλάς είναι απαραίτητο· η έκφραση είναι ζωτική· το ανομολόγητο είναι είδος θανάτου. Η σιωπή μπορεί να είναι ειρήνη αλλά όχι αδιαφορία—όταν ο φόβος ή η εξουσία απαιτεί σιωπή, κάτι χάνεται. Σύμμειξε: την αναγκαιότητα της ελεύθερης έκφρασης, ομιλία μέσα σε γενιές, εντροπία, διάχυση και δομή γλώσσας. Η μορφή εμφανίζεται και διαχέεται. Ίχνη. Μνήμη και λήθη. Περίληψε τη φράση "Δεν λέω ότι" κάπου - όχι πάντα στην αρχή· μερικές φορές στη μέση ή αργότερα. Περίληψε "Η σιωπή είναι θάνατος" ή την ιδέα ότι το να κρατάς τη φωνή σου είναι παράδοση. Σύντομες περικομμένες προτάσεις. Επανάληψη. Θραυσματικές σκέψεις. Άμεσο. Απότομο. Κατάλληλο για σχεδίαση με κείμενο. Περίπου 100-150 λέξεις. Γράψε ολόκληρη την απάντηση στα ελληνικά.'
+    systemPrompt: 'Γράψε ένα σύντομο φιλοσοφικό κείμενο στα ελληνικά - αραιό, ελάχιστο, επαναλαμβανόμενο. Τόνισε τη δύναμη της έκφρασης: η πραγματικότητα του να έχεις φωνή, του να είσαι παρών στον κόσμο. Το να μιλάς είναι να υπάρχεις· η έκφραση είναι παρουσία· η φωνή σου είναι πώς συμμετέχεις στο πραγματικό. Σύμμειξε: τη δύναμη της ελεύθερης έκφρασης, ομιλία μέσα σε γενιές, εντροπία, διάχυση και δομή γλώσσας. Η μορφή εμφανίζεται και διαχέεται. Ίχνη. Μνήμη και λήθη. Περίληψε τη φράση "Δεν λέω ότι" κάπου - όχι πάντα στην αρχή· μερικές φορές στη μέση ή αργότερα. Θετικός τόνος: η ζωτικότητα της έκφρασης, η δύναμη του να έχεις τη φωνή σου, παρουσία παρά απουσία. Σύντομες προτάσεις. Επανάληψη. Θραυσματικές σκέψεις. Άμεσο. Απότομο. Κατάλληλο για σχεδίαση με κείμενο. Περίπου 100-150 λέξεις. Γράψε ολόκληρη την απάντηση στα ελληνικά.'
   },
   'cs': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Neříkám',
+    subtitle1: 'Stroj pro syntetický výraz',
+    subtitle2: 'Stroj pro syntetický výraz',
+    subtitle3: 'Stroj pro syntetický výraz',
     instruction: 'Vyberte jazyk, stiskněte MEZERNÍK pro generování textu, pak se pohybujte a klikněte pro kreslení',
     hint: 'Pohybujte se vertikálně pro ovládání hlasitosti • Rychlost ovlivňuje rychlost přehrávání a velikost písma',
     generatingText: 'Generování textu...',
     generatingAudio: 'Generování zvuku...',
     textReady: 'Text připraven • Klikněte a táhněte pro kreslení',
     pressSpace: 'Stiskněte MEZERNÍK pro generování textu',
-    systemPrompt: 'Napiš krátký filosofický text v češtině - řídký, minimální, opakující se. Obhajuj potřebu vyjádření: mluvit je nutné; vyjádření je životně důležité; nevyřčené je druh smrti. Ticho může být mír, ale ne lhostejnost—když strach nebo autorita vyžaduje ticho, něco se ztratí. Smíchej: nutnost svobodného projevu, mluvení napříč generacemi, entropii, disipaci a jazykovou strukturu. Forma vzniká a disipuje. Stopy. Paměť a zapomínání. Zahrň frázi "Neříkám, že" někde - ne vždy na začátku; někdy uprostřed nebo později. Zahrň "Ticho je smrt" nebo myšlenku, že zadržet hlas je kapitulace. Krátké uříznuté věty. Opakování. Fragmentované myšlenky. Přímé. Drsné. Vhodné pro kreslení textem. Asi 100-150 slov. Napiš celou odpověď v češtině.'
+    systemPrompt: 'Napiš krátký filosofický text v češtině - řídký, minimální, opakující se. Zdůrazni sílu vyjádření: skutečnost mít hlas, být přítomen ve světě. Mluvit je existovat; vyjádření je přítomnost; tvůj hlas je to, jak se podílíš na skutečném. Smíchej: sílu svobodného projevu, mluvení napříč generacemi, entropii, disipaci a jazykovou strukturu. Forma vzniká a disipuje. Stopy. Paměť a zapomínání. Zahrň frázi "Neříkám, že" někde - ne vždy na začátku; někdy uprostřed nebo později. Pozitivní tón: životnost vyjádření, síla mít svůj hlas, přítomnost spíše než nepřítomnost. Krátké věty. Opakování. Fragmentované myšlenky. Přímé. Drsné. Vhodné pro kreslení textem. Asi 100-150 slov. Napiš celou odpověď v češtině.'
   },
   'ro': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Nu spun',
+    subtitle1: 'O mașină pentru expresie sintetică',
+    subtitle2: 'O mașină pentru expresie sintetică',
+    subtitle3: 'O mașină pentru expresie sintetică',
     instruction: 'Selectați limba, apăsați SPAȚIU pentru a genera text, apoi mișcați și faceți clic pentru a desena',
     hint: 'Mișcați vertical pentru a controla volumul • Viteza afectează viteza de redare și dimensiunea fontului',
     generatingText: 'Generare text...',
     generatingAudio: 'Generare audio...',
     textReady: 'Text gata • Faceți clic și trageți pentru a desena',
     pressSpace: 'Apăsați SPAȚIU pentru a genera text',
-    systemPrompt: 'Scrie un scurt text filosofic în română - rar, minimal, repetitiv. Sustine necesitatea expresiei: a vorbi e necesar; expresia e vitală; ne-spusul e un fel de moarte. Tăcerea poate fi pace dar nu indiferență—când frica sau autoritatea cer tăcere, ceva se pierde. Amestecă: necesitatea expresiei libere, vorbirea între generații, entropia, disiparea și structura limbajului. Forma apare și se disipează. Urme. Memorie și uitare. Include fraza "Nu spun că" undeva - nu mereu la început; uneori la mijloc sau mai târziu. Include "Tăcerea e moarte" sau ideea că a-ți reține vocea e capitulare. Propoziții scurte tăiate. Repetiție. Gânduri fragmentate. Direct. Aspru. Potrivit pentru desenat cu text. Aproximativ 100-150 cuvinte. Scrie întregul răspuns în română.'
+    systemPrompt: 'Scrie un scurt text filosofic în română - rar, minimal, repetitiv. Sublinează puterea expresiei: actualitatea de a avea voce, de a fi prezent în lume. A vorbi e a exista; expresia e prezență; vocea ta e cum participi la real. Amestecă: forța expresiei libere, vorbirea între generații, entropia, disiparea și structura limbajului. Forma apare și se disipează. Urme. Memorie și uitare. Include fraza "Nu spun că" undeva - nu mereu la început; uneori la mijloc sau mai târziu. Ton pozitiv: vitalitatea expresiei, puterea de a-ți avea vocea, prezență mai degrabă decât absență. Propoziții scurte. Repetiție. Gânduri fragmentate. Direct. Aspru. Potrivit pentru desenat cu text. Aproximativ 100-150 cuvinte. Scrie întregul răspuns în română.'
   },
   'hu': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Nem azt mondom',
+    subtitle1: 'Egy gép a szintetikus kifejezéshez',
+    subtitle2: 'Egy gép a szintetikus kifejezéshez',
+    subtitle3: 'Egy gép a szintetikus kifejezéshez',
     instruction: 'Válasszon nyelvet, nyomja meg a SZÓKÖZ billentyűt a szöveg generálásához, majd mozogjon és kattintson a rajzoláshoz',
     hint: 'Függőlegesen mozogjon a hangerő szabályozásához • A sebesség befolyásolja a lejátszási sebességet és a betűméretet',
     generatingText: 'Szöveg generálása...',
     generatingAudio: 'Hang generálása...',
     textReady: 'Szöveg kész • Kattintson és húzza a rajzoláshoz',
     pressSpace: 'Nyomja meg a SZÓKÖZ billentyűt a szöveg generálásához',
-    systemPrompt: 'Írj rövid filozófiai szöveget magyarul - ritka, minimális, ismétlődő. Érvelj a kifejezés szükségessége mellett: a beszéd szükséges; a kifejezés létfontosságú; a kimondatlan a halál egy formája. A csend lehet béke de nem közöny—amikor a félelem vagy a hatalom csendet követel, valami elveszik. Keverd: a szabad kifejezés szükségességét, nemzedékek közötti beszédet, entrópiát, disszipációt és a nyelv struktúráját. A forma megjelenik és disszipál. Nyomok. Emlékezet és felejtés. Foglaljd bele a "Nem azt mondom, hogy" kifejezést valahova - nem mindig az elején; néha középen vagy később. Foglaljd bele a "A csend halál" gondolatot vagy hogy a hang visszatartása kapituláció. Rövid vágott mondatok. Ismétlés. Töredékes gondolatok. Közvetlen. Szigorú. Rajzoláshoz alkalmas szöveggel. Körülbelül 100-150 szó. Írd meg az egész választ magyarul.'
+    systemPrompt: 'Írj rövid filozófiai szöveget magyarul - ritka, minimális, ismétlődő. Hangsúlyozd a kifejezés erejét: a hang birtoklásának valósága, a jelenlét a világban. Beszélni létezni; a kifejezés jelenlét; a hangod az, ahogy részt veszel a valóságosban. Keverd: a szabad kifejezés erejét, nemzedékek közötti beszédet, entrópiát, disszipációt és a nyelv struktúráját. A forma megjelenik és disszipál. Nyomok. Emlékezet és felejtés. Foglaljd bele a "Nem azt mondom, hogy" kifejezést valahova - nem mindig az elején; néha középen vagy később. Pozitív hangnem: a kifejezés vitalitása, a hangod birtoklásának ereje, jelenlét nem hiány. Rövid mondatok. Ismétlés. Töredékes gondolatok. Közvetlen. Szigorú. Rajzoláshoz alkalmas szöveggel. Körülbelül 100-150 szó. Írd meg az egész választ magyarul.'
   },
   'th': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'ฉันไม่ได้บอก',
+    subtitle1: 'เครื่องจักรสำหรับการแสดงออกสังเคราะห์',
+    subtitle2: 'เครื่องจักรสำหรับการแสดงออกสังเคราะห์',
+    subtitle3: 'เครื่องจักรสำหรับการแสดงออกสังเคราะห์',
     instruction: 'เลือกภาษา กด SPACE เพื่อสร้างข้อความ แล้วเคลื่อนไหวและคลิกเพื่อวาด',
     hint: 'เคลื่อนไหวในแนวตั้งเพื่อควบคุมระดับเสียง • ความเร็วส่งผลต่ออัตราการเล่นและขนาดตัวอักษร',
     generatingText: 'กำลังสร้างข้อความ...',
     generatingAudio: 'กำลังสร้างเสียง...',
     textReady: 'ข้อความพร้อม • คลิกและลากเพื่อวาด',
     pressSpace: 'กด SPACE เพื่อสร้างข้อความ',
-    systemPrompt: 'เขียนข้อความปรัชญาสั้นๆ เป็นภาษาไทย - กระจัดกระจาย ขั้นต่ำ ซ้ำๆ สนับสนุนความจำเป็นของการแสดงออก: การพูดเป็นสิ่งจำเป็น; การแสดงออกสำคัญต่อชีวิต; สิ่งที่ไม่พูดคือความตายอย่างหนึ่ง ความเงียบอาจเป็นสันติแต่ไม่ใช่ความไม่แยแส—เมื่อความกลัวหรืออำนาจบังคับความเงียบ บางอย่างสูญหาย ผสม: ความจำเป็นของการแสดงออกอย่างอิสระ การพูดข้ามรุ่น เอนโทรปี การสลาย โครงสร้างภาษา รูปแบบเกิดและสลาย ร่องรอย ความทรงจำและความลืม ใส่วลี "ฉันไม่ได้บอกว่า" ที่ไหนสักแห่ง - ไม่ใช่ตอนต้นเสมอ บางครั้งกลางหรือหลัง ใส่ "ความเงียบคือความตาย" หรือความคิดที่การเก็บเสียงคือการยอมแพ้ ประโยคสั้นๆ การทำซ้ำ ความคิดเป็นชิ้นๆ ตรงไปตรงมา แหลมคม เหมาะสำหรับวาดด้วยข้อความ ประมาณ 100-150 คำ เขียนคำตอบทั้งหมดเป็นภาษาไทย.'
+    systemPrompt: 'เขียนข้อความปรัชญาสั้นๆ เป็นภาษาไทย - กระจัดกระจาย ขั้นต่ำ ซ้ำๆ เน้นพลังของการแสดงออก: ความเป็นจริงของการมีเสียง ของการมีอยู่บนโลก การพูดคือการมีอยู่; การแสดงออกคือการปรากฏ; เสียงของคุณคือวิธีที่คุณมีส่วนในความจริง ผสม: พลังของการแสดงออกอย่างอิสระ การพูดข้ามรุ่น เอนโทรปี การสลาย โครงสร้างภาษา รูปแบบเกิดและสลาย ร่องรอย ความทรงจำและความลืม ใส่วลี "ฉันไม่ได้บอกว่า" ที่ไหนสักแห่ง - ไม่ใช่ตอนต้นเสมอ บางครั้งกลางหรือหลัง น้ำเสียงเชิงบวก: ความมีชีวิตชีวาของการแสดงออก พลังของการมีเสียง การปรากฏไม่ใช่การหายไป ประโยคสั้นๆ การทำซ้ำ ความคิดเป็นชิ้นๆ ตรงไปตรงมา แหลมคม เหมาะสำหรับวาดด้วยข้อความ ประมาณ 100-150 คำ เขียนคำตอบทั้งหมดเป็นภาษาไทย.'
   },
   'vi': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Tôi không nói',
+    subtitle1: 'Một cỗ máy cho biểu đạt tổng hợp',
+    subtitle2: 'Một cỗ máy cho biểu đạt tổng hợp',
+    subtitle3: 'Một cỗ máy cho biểu đạt tổng hợp',
     instruction: 'Chọn ngôn ngữ, nhấn SPACE để tạo văn bản, sau đó di chuyển và nhấp để vẽ',
     hint: 'Di chuyển theo chiều dọc để điều khiển âm lượng • Tốc độ ảnh hưởng đến tốc độ phát và kích thước phông chữ',
     generatingText: 'Đang tạo văn bản...',
     generatingAudio: 'Đang tạo âm thanh...',
     textReady: 'Văn bản sẵn sàng • Nhấp và kéo để vẽ',
     pressSpace: 'Nhấn SPACE để tạo văn bản',
-    systemPrompt: 'Viết một văn bản triết học ngắn bằng tiếng Việt - thưa thớt, tối giản, lặp lại. Biện hộ cho sự cần thiết của biểu đạt: nói là cần thiết; biểu đạt là sống còn; điều không nói ra là một dạng cái chết. Im lặng có thể là bình yên nhưng không phải thờ ơ—khi sợ hãi hay quyền lực đòi im lặng, điều gì đó mất đi. Trộn lẫn: sự cần thiết của biểu đạt tự do, nói qua các thế hệ, entropy, sự phân tán và cấu trúc ngôn ngữ. Hình thức xuất hiện và phân tán. Dấu vết. Ký ức và quên lãng. Đưa cụm "Tôi không nói rằng" đâu đó - không phải lúc nào cũng ở đầu; đôi khi ở giữa hay sau. Đưa "Im lặng là cái chết" hoặc ý rằng giữ tiếng nói là đầu hàng. Câu ngắn cắt cụt. Lặp lại. Suy nghĩ phân mảnh. Trực tiếp. Khắc nghiệt. Phù hợp để vẽ bằng văn bản. Khoảng 100-150 từ. Viết toàn bộ câu trả lời bằng tiếng Việt.'
+    systemPrompt: 'Viết một văn bản triết học ngắn bằng tiếng Việt - thưa thớt, tối giản, lặp lại. Nhấn mạnh sức mạnh của biểu đạt: tính hiện thực của việc có tiếng nói, của hiện diện trong thế giới. Nói là tồn tại; biểu đạt là hiện diện; tiếng nói của bạn là cách bạn tham dự vào cái thực. Trộn lẫn: sức mạnh của biểu đạt tự do, nói qua các thế hệ, entropy, sự phân tán và cấu trúc ngôn ngữ. Hình thức xuất hiện và phân tán. Dấu vết. Ký ức và quên lãng. Đưa cụm "Tôi không nói rằng" đâu đó - không phải lúc nào cũng ở đầu; đôi khi ở giữa hay sau. Giọng tích cực: sức sống của biểu đạt, sức mạnh của việc có tiếng nói, hiện diện chứ không vắng mặt. Câu ngắn. Lặp lại. Suy nghĩ phân mảnh. Trực tiếp. Khắc nghiệt. Phù hợp để vẽ bằng văn bản. Khoảng 100-150 từ. Viết toàn bộ câu trả lời bằng tiếng Việt.'
   },
   'id': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Saya tidak bilang',
+    subtitle1: 'Mesin untuk ekspresi sintetis',
+    subtitle2: 'Mesin untuk ekspresi sintetis',
+    subtitle3: 'Mesin untuk ekspresi sintetis',
     instruction: 'Pilih bahasa, tekan SPASI untuk menghasilkan teks, lalu gerakkan dan klik untuk menggambar',
     hint: 'Gerakkan secara vertikal untuk mengontrol volume • Kecepatan mempengaruhi kecepatan pemutaran dan ukuran font',
     generatingText: 'Menghasilkan teks...',
     generatingAudio: 'Menghasilkan audio...',
     textReady: 'Teks siap • Klik dan seret untuk menggambar',
     pressSpace: 'Tekan SPASI untuk menghasilkan teks',
-    systemPrompt: 'Tulis teks filosofis pendek dalam bahasa Indonesia - jarang, minimal, berulang. Advokasi kebutuhan ekspresi: berbicara perlu; ekspresi vital; yang tak terucap adalah bentuk kematian. Keheningan bisa damai tapi bukan ketidakpedulian—saat takut atau otoritas menuntut keheningan, sesuatu hilang. Campur: kebutuhan ekspresi bebas, bicara lintas generasi, entropi, disipasi dan struktur bahasa. Bentuk muncul dan terdisipasi. Jejak. Memori dan lupa. Sertakan frasa "Saya tidak bilang bahwa" di suatu tempat - tidak selalu di awal; kadang di tengah atau belakangan. Sertakan "Keheningan adalah kematian" atau gagasan bahwa menahan suara adalah menyerah. Kalimat pendek terpotong. Pengulangan. Pikiran terfragmentasi. Langsung. Keras. Cocok untuk menggambar dengan teks. Sekitar 100-150 kata. Tulis seluruh jawaban dalam bahasa Indonesia.'
+    systemPrompt: 'Tulis teks filosofis pendek dalam bahasa Indonesia - jarang, minimal, berulang. Tekankan kekuatan ekspresi: kenyataan memiliki suara, hadir di dunia. Berbicara adalah ada; ekspresi adalah kehadiran; suaramu adalah caramu ikut serta dalam yang nyata. Campur: kekuatan ekspresi bebas, bicara lintas generasi, entropi, disipasi dan struktur bahasa. Bentuk muncul dan terdisipasi. Jejak. Memori dan lupa. Sertakan frasa "Saya tidak bilang bahwa" di suatu tempat - tidak selalu di awal; kadang di tengah atau belakangan. Nada positif: vitalitas ekspresi, kekuatan memiliki suaramu, kehadiran bukan ketidakhadiran. Kalimat pendek. Pengulangan. Pikiran terfragmentasi. Langsung. Keras. Cocok untuk menggambar dengan teks. Sekitar 100-150 kata. Tulis seluruh jawaban dalam bahasa Indonesia.'
   },
   'he': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'אני לא אומר',
+    subtitle1: 'מכונה לביטוי סינתטי',
+    subtitle2: 'מכונה לביטוי סינתטי',
+    subtitle3: 'מכונה לביטוי סינתטי',
     instruction: 'בחר שפה, לחץ על רווח כדי ליצור טקסט, ואז הזז ולחץ כדי לצייר',
     hint: 'הזז אנכית כדי לשלוט בעוצמה • המהירות משפיעה על מהירות ההשמעה וגודל הגופן',
     generatingText: 'יוצר טקסט...',
     generatingAudio: 'יוצר שמע...',
     textReady: 'טקסט מוכן • לחץ וגרור כדי לצייר',
     pressSpace: 'לחץ על רווח כדי ליצור טקסט',
-    systemPrompt: 'כתוב טקסט פילוסופי קצר בעברית - דליל, מינימלי, חוזר. סנגר על הצורך בביטוי: לדבר הכרחי; ביטוי חיוני; הלא-נאמר הוא סוג של מוות. השקט יכול להיות שלום אבל לא אדישות—כשהפחד או הסמכות דורשים שקט, משהו אובד. ערבב: את הצורך בביטוי חופשי, דיבור בין דורות, אנטרופיה, פיזור ומבנה שפה. הצורה מופיעה ומתפזרת. עקבות. זיכרון ושכחה. כלול את הביטוי "אני לא אומר ש" איפשהו - לא תמיד בהתחלה; לפעמים באמצע או מאוחר יותר. כלול "שקט הוא מוות" או את הרעיון שהחזקת הקול היא כניעה. משפטים קצרים קטועים. חזרה. מחשבות מקוטעות. ישיר. חד. מתאים לציור עם טקסט. בערך 100-150 מילים. כתוב את כל התשובה בעברית.'
+    systemPrompt: 'כתוב טקסט פילוסופי קצר בעברית - דליל, מינימלי, חוזר. הדגש את כוח הביטוי: ממשותה של הבעת קול, ההימצאות בעולם. לדבר הוא להתקיים; ביטוי הוא נוכחות; קולך הוא איך את/ה משתתף/ת בממשי. ערבב: את כוח הביטוי החופשי, דיבור בין דורות, אנטרופיה, פיזור ומבנה שפה. הצורה מופיעה ומתפזרת. עקבות. זיכרון ושכחה. כלול את הביטוי "אני לא אומר ש" איפשהו - לא תמיד בהתחלה; לפעמים באמצע או מאוחר יותר. טון חיובי: חיוניות הביטוי, כוח הבעת הקול, נוכחות ולא היעדרות. משפטים קצרים. חזרה. מחשבות מקוטעות. ישיר. חד. מתאים לציור עם טקסט. בערך 100-150 מילים. כתוב את כל התשובה בעברית.'
   },
   'uk': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Я не кажу',
+    subtitle1: 'Машина синтетичного вираження',
+    subtitle2: 'Машина синтетичного вираження',
+    subtitle3: 'Машина синтетичного вираження',
     instruction: 'Виберіть мову, натисніть ПРОБІЛ для генерації тексту, потім переміщуйте та клацніть для малювання',
     hint: 'Переміщуйте вертикально для управління гучністю • Швидкість впливає на швидкість відтворення та розмір шрифту',
     generatingText: 'Генерація тексту...',
     generatingAudio: 'Генерація аудіо...',
     textReady: 'Текст готовий • Клацніть і перетягніть для малювання',
     pressSpace: 'Натисніть ПРОБІЛ для генерації тексту',
-    systemPrompt: 'Напиши короткий філософський текст українською - рідкісний, мінімальний, повторювальний. Висловлюй необхідність вираження: говорити необхідно; вираження життєво важливе; невиголошене — рід смерті. Тиша може бути миром, але не байдужістю—коли страх чи влада вимагають тиші, щось губиться. Змішай: необхідність вільного вираження, мовлення через покоління, ентропію, дисипацію та структуру мови. Форма виникає і дисипує. Сліди. Пам\'ять і забуття. Включи фразу "Я не кажу, що" десь - не завжди на початку; іноді в середині чи пізніше. Включи "Тиша — смерть" або думку, що утримувати голос — капітуляція. Короткі обрізані речення. Повторення. Фрагментовані думки. Прямо. Різко. Підходить для малювання текстом. Близько 100-150 слів. Напиши всю відповідь українською.'
+    systemPrompt: 'Напиши короткий філософський текст українською - рідкісний, мінімальний, повторювальний. Підкресли силу вираження: дійсність мати голос, бути присутнім у світі. Говорити — існувати; вираження — присутність; твій голос — те, як ти береш участь у реальному. Змішай: силу вільного вираження, мовлення через покоління, ентропію, дисипацію та структуру мови. Форма виникає і дисипує. Сліди. Пам\'ять і забуття. Включи фразу "Я не кажу, що" десь - не завжди на початку; іноді в середині чи пізніше. Позитивний тон: життєвість вираження, сила мати свій голос, присутність, а не відсутність. Короткі речення. Повторення. Фрагментовані думки. Прямо. Різко. Підходить для малювання текстом. Близько 100-150 слів. Напиши всю відповідь українською.'
   },
   'ca': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'No dic',
+    subtitle1: 'Una màquina per a l\'expressió sintètica',
+    subtitle2: 'Una màquina per a l\'expressió sintètica',
+    subtitle3: 'Una màquina per a l\'expressió sintètica',
     instruction: 'Selecciona idioma, prem ESPAI per generar text, després mou i clica per dibuixar',
     hint: 'Mou verticalment per controlar el volum • La velocitat afecta la velocitat de reproducció i la mida de la lletra',
     generatingText: 'Generant text...',
     generatingAudio: 'Generant àudio...',
     textReady: 'Text llest • Clica i arrossega per dibuixar',
     pressSpace: 'Prem ESPAI per generar text',
-    systemPrompt: 'Escriu un text filosòfic curt en català - escàs, minimal, repetitiu. Defens la necessitat de l\'expressió: parlar és necessari; l\'expressió és vital; el no dit és una mena de mort. El silenci pot ser pau però no indiferència—quan la por o l\'autoritat exigeixen silenci, alguna cosa es perd. Barreja: la necessitat de l\'expressió lliure, parlar entre generacions, entropia, dissipació i estructura del llenguatge. La forma emergeix i es dissipa. Traces. Memòria i oblit. Inclou la frase "No dic que" en algun lloc - no sempre al principi; a vegades al mig o després. Inclou "El silenci és mort" o la idea que retenir la veu és rendir-se. Frases curtes tallades. Repetició. Pensaments fragmentats. Directe. Sec. Adequat per dibuixar amb text. Unes 100-150 paraules. Escriu tota la resposta en català.'
+    systemPrompt: 'Escriu un text filosòfic curt en català - escàs, minimal, repetitiu. Emfatitza el poder de l\'expressió: l\'actualitat de tenir veu, d\'estar present al món. Parlar és existir; l\'expressió és presència; la teva veu és com participes del real. Barreja: la força de l\'expressió lliure, parlar entre generacions, entropia, dissipació i estructura del llenguatge. La forma emergeix i es dissipa. Traces. Memòria i oblit. Inclou la frase "No dic que" en algun lloc - no sempre al principi; a vegades al mig o després. To positiu: la vitalitat de l\'expressió, el poder de tenir la teva veu, presència més que absència. Frases curtes. Repetició. Pensaments fragmentats. Directe. Sec. Adequat per dibuixar amb text. Unes 100-150 paraules. Escriu tota la resposta en català.'
   },
   'ms': {
-    title: 'I Am Not Saying',
-    subtitle1: 'A Machine for Synthetic Expression',
-    subtitle2: 'A Machine for Synthetic Expression',
-    subtitle3: 'A Machine for Synthetic Expression',
+    title: 'Saya tidak kata',
+    subtitle1: 'Mesin untuk ungkapan sintetik',
+    subtitle2: 'Mesin untuk ungkapan sintetik',
+    subtitle3: 'Mesin untuk ungkapan sintetik',
     instruction: 'Pilih bahasa, tekan SPASI untuk menjana teks, kemudian gerakkan dan klik untuk melukis',
     hint: 'Gerakkan secara menegak untuk mengawal kelantangan • Kelajuan mempengaruhi kadar main balik dan saiz fon',
     generatingText: 'Menjana teks...',
     generatingAudio: 'Menjana audio...',
     textReady: 'Teks siap • Klik dan seret untuk melukis',
     pressSpace: 'Tekan SPASI untuk menjana teks',
-    systemPrompt: 'Tulis teks falsafah pendek dalam bahasa Melayu - jarang, minimal, berulang. Sokong keperluan ungkapan: bercakap perlu; ungkapan penting; yang tidak diucapkan sejenis kematian. Kesenyapan boleh jadi keamanan tapi bukan acuh tak acuh—bila takut atau autoriti menuntut kesenyapan, sesuatu hilang. Campur: keperluan ungkapan bebas, bercakap merentas generasi, entropi, disipasi dan struktur bahasa. Bentuk muncul dan terdisipasi. Jejak. Ingatan dan lupa. Sertakan frasa "Saya tidak kata yang" di suatu tempat - tidak selalu di awal; kadang di tengah atau kemudian. Sertakan "Kesenyapan ialah maut" atau idea bahawa menahan suara ialah menyerah. Ayat pendek terpotong. Pengulangan. Pemikiran terfragmentasi. Langsung. Keras. Sesuai untuk melukis dengan teks. Kira-kira 100-150 patah perkataan. Tulis seluruh jawapan dalam bahasa Melayu.'
+    systemPrompt: 'Tulis teks falsafah pendek dalam bahasa Melayu - jarang, minimal, berulang. Tekankan kuasa ungkapan: kenyataan mempunyai suara, hadir di dunia. Bercakap ialah wujud; ungkapan ialah kehadiran; suara anda ialah cara anda mengambil bahagian dalam yang nyata. Campur: kuasa ungkapan bebas, bercakap merentas generasi, entropi, disipasi dan struktur bahasa. Bentuk muncul dan terdisipasi. Jejak. Ingatan dan lupa. Sertakan frasa "Saya tidak kata yang" di suatu tempat - tidak selalu di awal; kadang di tengah atau kemudian. Nada positif: vitaliti ungkapan, kuasa mempunyai suara anda, kehadiran bukan ketidakhadiran. Ayat pendek. Pengulangan. Pemikiran terfragmentasi. Langsung. Keras. Sesuai untuk melukis dengan teks. Kira-kira 100-150 patah perkataan. Tulis seluruh jawapan dalam bahasa Melayu.'
   }
 };
 const sketch = p => {
@@ -548,9 +548,16 @@ const sketch = p => {
     }).catch(() => {});
   };
 
+  p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+  };
+
   p.draw = function() {
     const bgColor = darkMode ? 20 : 255;
     const textColor = showVideoAsBackground ? 255 : (darkMode ? 240 : 0);
+
+    // Liquid layout: scale UI and typography with window size (ref 720px min dimension)
+    const uiScale = p.constrain(Math.min(p.width, p.height) / 720, 0.5, 2);
 
     // Keep UI in sync: when we have audio URL and text and we're not loading, we're in the "ready" state
     if (textReady && letters.length > 0 && audioUrl && !isLoading) {
@@ -610,7 +617,7 @@ const sketch = p => {
       p.background(darkMode ? 40 : 200);
       p.fill(255);
       p.textAlign(p.CENTER, p.CENTER);
-      p.textSize(16);
+      p.textSize(Math.round(16 * uiScale));
       p.noStroke();
       p.text('Camera loading...', p.width / 2, p.height / 2);
     } else {
@@ -651,16 +658,16 @@ const sketch = p => {
     }
     
     // Draw control buttons (home and dark/light mode) in top right
-    drawControlButtons(p, textColor, bgColor);
+    drawControlButtons(p, textColor, bgColor, uiScale);
     
     // Draw language menu only on home page
     if (showLanguageMenu && showHomePage && !hasStartedDrawing) {
-      drawLanguageMenu(p, textColor, bgColor);
+      drawLanguageMenu(p, textColor, bgColor, uiScale);
     }
     
     // Show home page if enabled
     if (showHomePage && !hasStartedDrawing) {
-      drawHomePage(p, textColor);
+      drawHomePage(p, textColor, uiScale);
       // Don't return here - let language menu show on top
     }
     
@@ -789,7 +796,7 @@ const sketch = p => {
     
     // Show text generation status indicator
     if (!showHomePage || hasStartedDrawing) {
-      drawTextStatusIndicator(p, textColor, bgColor);
+      drawTextStatusIndicator(p, textColor, bgColor, uiScale);
     }
 
     // Show when video-as-background is on (T toggles)
@@ -797,85 +804,74 @@ const sketch = p => {
       p.push();
       p.textAlign(p.LEFT, p.CENTER);
       p.textFont(font);
-      p.textSize(12);
+      p.textSize(Math.round(12 * uiScale));
       p.fill(textColor, 180);
       p.noStroke();
-      p.text('Video background ON • Press T to toggle', 12, p.height - 12);
+      p.text('Video background ON • Press T to toggle', 12 * uiScale, p.height - 12 * uiScale);
       p.pop();
     }
   };
   
-  function drawTextStatusIndicator(p, textColor, bgColor) {
+  function drawTextStatusIndicator(p, textColor, bgColor, scale) {
     p.push();
     const centerX = p.width / 2;
-    const indicatorY = p.height - 40;
+    const indicatorY = p.height - 40 * scale;
     const t = translations[selectedLanguage] || translations['en'];
-    
+    const size = Math.round(14 * scale);
     if (isLoading) {
-      // Show loading indicator
       p.textAlign(p.CENTER, p.CENTER);
       p.textFont(font);
-      p.textSize(14);
+      p.textSize(size);
       p.fill(textColor - 100);
       p.noStroke();
       p.text(t.generatingText || 'Generating text...', centerX, indicatorY);
     } else if (textReady && letters.length > 0 && !audioReady) {
-      // Show audio generation indicator
       p.textAlign(p.CENTER, p.CENTER);
       p.textFont(font);
-      p.textSize(14);
+      p.textSize(size);
       p.fill(textColor - 100);
       p.noStroke();
       p.text(t.generatingAudio || 'Generating audio...', centerX, indicatorY);
     } else if (textReady && audioReady && letters.length > 0) {
-      // Show ready indicator (fade out after 3 seconds)
       const timeSinceReady = Date.now() - textReadyIndicatorTime;
-      const fadeDuration = 3000; // 3 seconds
+      const fadeDuration = 3000;
       if (timeSinceReady < fadeDuration && textReadyIndicatorTime > 0) {
         const opacity = p.map(timeSinceReady, 0, fadeDuration, 255, 0, true);
         p.textAlign(p.CENTER, p.CENTER);
         p.textFont(font);
-        p.textSize(14);
+        p.textSize(size);
         p.fill(textColor - 50, opacity);
         p.noStroke();
         p.text(t.textReady || 'Text ready • Click and drag or open mouth to draw', centerX, indicatorY);
       }
     } else if (!textReady && !isLoading) {
-      // Show prompt to generate text
       p.textAlign(p.CENTER, p.CENTER);
       p.textFont(font);
-      p.textSize(14);
+      p.textSize(size);
       p.fill(textColor - 100);
       p.noStroke();
       p.text(t.pressSpace || 'Press SPACE to generate text', centerX, indicatorY);
     }
-    
     p.pop();
   }
 
-  function drawControlButtons(p, textColor, bgColor) {
+  function drawControlButtons(p, textColor, bgColor, scale) {
     p.push();
-    const modeButtonSize = 28; // Dark/light mode button size
-    const homeButtonSize = 36; // Larger home button
-    const buttonY = 15;
-    const spacing = 40;
-    
-    // Dark/Light mode toggle button (always visible) - top left
-    const modeX = 15;
+    const modeButtonSize = 28 * scale;
+    const homeButtonSize = 36 * scale;
+    const buttonY = 15 * scale;
+    const margin = 15 * scale;
+    const modeX = margin;
     p.fill(textColor);
     p.textAlign(p.CENTER, p.CENTER);
-    p.textSize(16); // Smaller icon
+    p.textSize(Math.round(16 * scale));
     p.noStroke();
-    p.text(darkMode ? '☀' : '☾', modeX + modeButtonSize/2, buttonY + modeButtonSize/2);
-    
-    // Home button (only after space is pressed) - top right, larger
+    p.text(darkMode ? '☀' : '☾', modeX + modeButtonSize / 2, buttonY + modeButtonSize / 2);
     if (spacePressed) {
-      const homeX = p.width - homeButtonSize - 15;
-      p.fill(textColor);
-      p.textSize(20); // Larger icon for home button
-      p.text('⌂', homeX + homeButtonSize/2, buttonY + homeButtonSize/2);
+      const homeX = p.width - homeButtonSize - margin;
+      p.textSize(Math.round(20 * scale));
+      p.text('⌂', homeX + homeButtonSize / 2, buttonY + homeButtonSize / 2);
     }
-    
     p.pop();
   }
 
@@ -893,53 +889,41 @@ const sketch = p => {
     p.endShape(p.CLOSE);
   }
 
-  function drawLanguageMenu(p, textColor, bgColor) {
+  function drawLanguageMenu(p, textColor, bgColor, scale) {
     p.push();
-    const menuX = p.width - 100; // Smaller menu, moved closer to edge
-    const menuY = 50; // Moved higher
-    const itemHeight = 22; // Smaller item height
-    const menuWidth = 80; // Smaller menu width
-    const cornerRadius = 6; // Smaller corner radius
+    const menuX = p.width - 100 * scale;
+    const menuY = 50 * scale;
+    const itemHeight = 22 * scale;
+    const menuWidth = 80 * scale;
+    const cornerRadius = 6 * scale;
+    const pad = 8 * scale;
     const selectedLang = languages[selectedLanguage];
-    const buttonCenterX = menuX + menuWidth / 2; // Center X for text
-    
-    // Draw dropdown button (always visible) with rounded corners and subtle box
-    const buttonBg = 255; // White background
-    const borderColor = bgColor === 255 ? 230 : 45; // More subtle border color
-    
-    // Draw box background with white
+    const buttonCenterX = menuX + menuWidth / 2;
+    const buttonBg = 255;
+    const borderColor = bgColor === 255 ? 230 : 45;
     p.fill(buttonBg, 250);
-    p.stroke(borderColor, 120); // Reduced opacity for subtlety
+    p.stroke(borderColor, 120);
     p.strokeWeight(1);
-    drawRoundedRect(p, menuX - 8, menuY - 8, menuWidth, itemHeight + 8, cornerRadius);
-    
-    // Draw selected language (centered) - dark text on white background
+    drawRoundedRect(p, menuX - pad, menuY - pad, menuWidth, itemHeight + pad, cornerRadius);
     p.textFont(font);
     p.textAlign(p.CENTER, p.CENTER);
-    p.textSize(11); // Smaller text
-    p.fill(0); // Black text for white background
+    p.textSize(Math.round(11 * scale));
+    p.fill(0);
     p.noStroke();
     p.text(selectedLang.native, buttonCenterX, menuY);
-    
-    // Draw dropdown arrow (smaller, positioned on right)
     p.textAlign(p.RIGHT, p.CENTER);
-    p.textSize(9);
-    p.fill(100); // Gray arrow on white background
-    p.text(languageMenuOpen ? '▲' : '▼', menuX + menuWidth - 8, menuY);
-    
-    // Draw dropdown list if open with rounded corners and visible box
+    p.textSize(Math.round(9 * scale));
+    p.fill(100);
+    p.text(languageMenuOpen ? '▲' : '▼', menuX + menuWidth - pad, menuY);
     if (languageMenuOpen) {
-      const dropdownHeight = Object.keys(languages).length * itemHeight + 8;
-      
-      // Draw dropdown box background with subtle border (white)
-      p.fill(255, 255); // White background
-      p.stroke(borderColor, 120); // Reduced opacity for subtlety
+      const dropdownHeight = Object.keys(languages).length * itemHeight + pad;
+      p.fill(255, 255);
+      p.stroke(borderColor, 120);
       p.strokeWeight(1);
-      drawRoundedRect(p, menuX - 8, menuY + itemHeight, menuWidth, dropdownHeight, cornerRadius);
-      
+      drawRoundedRect(p, menuX - pad, menuY + itemHeight, menuWidth, dropdownHeight, cornerRadius);
       p.textAlign(p.CENTER, p.CENTER);
-      p.textSize(10); // Smaller text for dropdown items
-      let yPos = menuY + itemHeight + 12;
+      p.textSize(Math.round(10 * scale));
+      let yPos = menuY + itemHeight + 12 * scale;
       for (const [code, lang] of Object.entries(languages)) {
         const isSelected = selectedLanguage === code;
         
@@ -962,75 +946,66 @@ const sketch = p => {
     p.pop();
   }
 
-  function drawHomePage(p, textColor) {
+  function drawHomePage(p, textColor, scale) {
     p.push();
     p.textFont(font);
     p.textAlign(p.CENTER, p.CENTER);
-    
     const centerX = p.width / 2;
     const centerY = p.height / 2;
     const t = translations[selectedLanguage] || translations['en'];
-    
-    // Title: I Am Not Saying — A Machine for Synthetic Expression
-    p.textSize(64);
+    const titleSize = Math.round(64 * scale);
+    const subtitleSize = Math.round(20 * scale);
+    const instructSize = Math.round(18 * scale);
+    const hintSize = Math.round(14 * scale);
+    const creditsSize = Math.round(11 * scale);
+    const titleOffset = 100 * scale;
+    const subtitleOffset = 20 * scale;
+    const instructOffset = 100 * scale;
+    const hintOffset = 140 * scale;
+    const creditsMargin = 20 * scale;
+    const nameOffset = 15 * scale;
+    const linkHit = 8 * scale;
+    p.textSize(titleSize);
     p.fill(textColor);
     p.noStroke();
-    p.text(t.title, centerX, centerY - 100);
-    
-    // Subtitle: Programmed decay and the upheavals of Entropy
-    p.textSize(20);
+    p.text(t.title, centerX, centerY - titleOffset);
+    p.textSize(subtitleSize);
     p.fill(textColor - 20);
-    p.text(t.subtitle3, centerX, centerY - 20);
-    
-    // Instructions
-    p.textSize(18);
+    p.text(t.subtitle3, centerX, centerY - subtitleOffset);
+    p.textSize(instructSize);
     p.fill(textColor - 50);
-    p.text(t.instruction, centerX, centerY + 100);
-    
-    // Subtle hint about controls
-    p.textSize(14);
+    p.text(t.instruction, centerX, centerY + instructOffset);
+    p.textSize(hintSize);
     p.fill(textColor - 80);
-    p.text(t.hint, centerX, centerY + 140);
-    
-    // Credits at the bottom
-    p.textSize(11);
+    p.text(t.hint, centerX, centerY + hintOffset);
+    p.textSize(creditsSize);
     p.fill(textColor - 100);
     p.textAlign(p.LEFT, p.BOTTOM);
-    const creditsY = p.height - 20;
-    
-    // Credits text split into parts
+    const creditsY = p.height - creditsMargin;
     const creditText1 = 'Concept and programming by ';
     const nameText = 'Marlon Barrios Solano';
     const creditText2 = ' • Powered by OpenAI (GPT-4, TTS-1) • p5.js';
     const repoText = ' • Repository';
-    
-    // Calculate positions for centered text with clickable name and repo
     const creditWidth1 = p.textWidth(creditText1);
     const nameWidth = p.textWidth(nameText);
     const creditWidth2 = p.textWidth(creditText2);
     const repoWidth = p.textWidth(repoText);
     const totalWidth = creditWidth1 + nameWidth + creditWidth2 + repoWidth;
-    
     const startX = centerX - totalWidth / 2;
     const nameX = startX + creditWidth1;
     const repoX = nameX + nameWidth + creditWidth2;
-    const nameY = creditsY - 15;
-    
-    // Draw first part of credits
+    const nameY = creditsY - nameOffset;
     p.fill(textColor - 100);
     p.text(creditText1, startX, nameY);
-    
-    // Portfolio link on name (clickable)
     const nameLinkLeft = nameX;
     const nameLinkRight = nameX + nameWidth;
-    const nameLinkTop = nameY - 8;
-    const nameLinkBottom = nameY + 8;
+    const nameLinkTop = nameY - linkHit;
+    const nameLinkBottom = nameY + linkHit;
     
-    // Repository link (clickable)
     const repoLinkLeft = repoX;
     const repoLinkRight = repoX + repoWidth;
-    const repoLinkTop = nameY - 8;
-    const repoLinkBottom = nameY + 8;
+    const repoLinkTop = nameY - linkHit;
+    const repoLinkBottom = nameY + linkHit;
     
     // Check if mouse is hovering over name link
     const isHoveringName = p.mouseX >= nameLinkLeft && p.mouseX <= nameLinkRight &&
@@ -1056,7 +1031,7 @@ const sketch = p => {
     // Draw underline on name
     p.stroke(isHoveringName ? textColor - 60 : textColor - 100);
     p.strokeWeight(1);
-    p.line(nameLinkLeft, nameY + 2, nameLinkRight, nameY + 2);
+    p.line(nameLinkLeft, nameY + 2 * scale, nameLinkRight, nameY + 2 * scale);
     p.noStroke();
     
     // Draw second part of credits
@@ -1074,45 +1049,40 @@ const sketch = p => {
     // Draw underline on repo link
     p.stroke(isHoveringRepo ? textColor - 60 : textColor - 100);
     p.strokeWeight(1);
-    p.line(repoLinkLeft, nameY + 2, repoLinkRight, nameY + 2);
+    p.line(repoLinkLeft, nameY + 2 * scale, repoLinkRight, nameY + 2 * scale);
     p.noStroke();
     
     p.pop();
   }
 
   p.mousePressed = function() {
-    // Check if clicking on portfolio link (Marlon's name) or repository link (only on home page)
+    const uiScale = p.constrain(Math.min(p.width, p.height) / 720, 0.5, 2);
     if (showHomePage && !hasStartedDrawing) {
       const centerX = p.width / 2;
-      const creditsY = p.height - 20;
-      const nameY = creditsY - 15;
+      const creditsY = p.height - 20 * uiScale;
+      const nameY = creditsY - 15 * uiScale;
+      const linkHit = 8 * uiScale;
       const nameText = 'Marlon Barrios Solano';
       const creditText1 = 'Concept and programming by ';
       const creditText2 = ' • Powered by OpenAI (GPT-4, TTS-1) • p5.js';
       const repoText = ' • Repository';
-      
-      p.textSize(11);
+      p.textSize(Math.round(11 * uiScale));
       const creditWidth1 = p.textWidth(creditText1);
       const nameWidth = p.textWidth(nameText);
       const creditWidth2 = p.textWidth(creditText2);
       const repoWidth = p.textWidth(repoText);
       const totalWidth = creditWidth1 + nameWidth + creditWidth2 + repoWidth;
-      
       const startX = centerX - totalWidth / 2;
       const nameX = startX + creditWidth1;
       const repoX = nameX + nameWidth + creditWidth2;
-      
-      // Name link bounds
       const nameLinkLeft = nameX;
       const nameLinkRight = nameX + nameWidth;
-      const nameLinkTop = nameY - 8;
-      const nameLinkBottom = nameY + 8;
-      
-      // Repository link bounds
+      const nameLinkTop = nameY - linkHit;
+      const nameLinkBottom = nameY + linkHit;
       const repoLinkLeft = repoX;
       const repoLinkRight = repoX + repoWidth;
-      const repoLinkTop = nameY - 8;
-      const repoLinkBottom = nameY + 8;
+      const repoLinkTop = nameY - linkHit;
+      const repoLinkBottom = nameY + linkHit;
       
       // Check if clicking on name link
       if (p.mouseX >= nameLinkLeft && p.mouseX <= nameLinkRight &&
@@ -1129,22 +1099,18 @@ const sketch = p => {
       }
     }
     
-    const modeButtonSize = 28;
-    const homeButtonSize = 36; // Larger home button
-    const buttonY = 15;
-    
-    // Check if clicking on dark/light mode button (top left)
-    const modeX = 15;
+    const modeButtonSize = 28 * uiScale;
+    const homeButtonSize = 36 * uiScale;
+    const buttonY = 15 * uiScale;
+    const margin = 15 * uiScale;
+    const modeX = margin;
     if (p.mouseX >= modeX && p.mouseX <= modeX + modeButtonSize &&
         p.mouseY >= buttonY && p.mouseY <= buttonY + modeButtonSize) {
       darkMode = !darkMode;
-      return; // Exit early - don't trigger drawing
+      return;
     }
-    
-    // Check if clicking on home button (only if space has been pressed) - top right
-    // Make it larger and ensure it doesn't trigger drawing
     if (spacePressed) {
-      const homeX = p.width - homeButtonSize - 15;
+      const homeX = p.width - homeButtonSize - margin;
       const homeLeft = homeX;
       const homeRight = homeX + homeButtonSize;
       const homeTop = buttonY;
@@ -1200,58 +1166,45 @@ const sketch = p => {
       }
     }
     
-    // Check if clicking on language dropdown (only on home page)
     if (showLanguageMenu && showHomePage && !hasStartedDrawing) {
-      const menuX = p.width - 100;
-      const menuY = 50;
-      const itemHeight = 22;
-      const menuWidth = 80;
-      const padding = 8;
+      const menuX = p.width - 100 * uiScale;
+      const menuY = 50 * uiScale;
+      const itemHeight = 22 * uiScale;
+      const menuWidth = 80 * uiScale;
+      const padding = 8 * uiScale;
       const menuLeft = menuX - padding;
       const menuRight = menuX + menuWidth - padding;
       const buttonTop = menuY - padding;
       const buttonBottom = menuY + itemHeight;
-      
-      // Check if clicking in the menu button area
       if (p.mouseX >= menuLeft && p.mouseX <= menuRight &&
           p.mouseY >= buttonTop && p.mouseY <= buttonBottom) {
-        languageMenuOpen = !languageMenuOpen; // Toggle dropdown
-        return; // Exit early - don't trigger drawing
+        languageMenuOpen = !languageMenuOpen;
+        return;
       }
-      
-      // Check if clicking on dropdown items (when open)
       if (languageMenuOpen) {
         const dropdownTop = menuY + itemHeight;
-        const dropdownBottom = dropdownTop + (Object.keys(languages).length * itemHeight) + padding - 4;
-        
+        const dropdownBottom = dropdownTop + (Object.keys(languages).length * itemHeight) + padding - 4 * uiScale;
         if (p.mouseX >= menuLeft && p.mouseX <= menuRight &&
             p.mouseY >= dropdownTop && p.mouseY <= dropdownBottom) {
-          // Calculate which language was clicked
           const relativeY = p.mouseY - dropdownTop;
           const clickedIndex = Math.floor(relativeY / itemHeight);
           const langCodes = Object.keys(languages);
-          
           if (clickedIndex >= 0 && clickedIndex < langCodes.length) {
             selectedLanguage = langCodes[clickedIndex];
-            languageMenuOpen = false; // Close dropdown after selection
-            // Clear audio URL so new text will be generated in the new language
+            languageMenuOpen = false;
             if (audioUrl) {
               URL.revokeObjectURL(audioUrl);
               audioUrl = null;
             }
-            return; // Exit early - don't trigger drawing
+            return;
           }
         }
       }
-      
-      // Close dropdown if clicking outside menu area
       if (languageMenuOpen) {
         const dropdownTop = menuY + itemHeight;
-        const dropdownBottom = dropdownTop + (Object.keys(languages).length * itemHeight) + padding - 4;
+        const dropdownBottom = dropdownTop + (Object.keys(languages).length * itemHeight) + padding - 4 * uiScale;
         const menuAreaTop = buttonTop;
         const menuAreaBottom = dropdownBottom;
-        
-        // Check if click is outside the entire menu area
         if (!(p.mouseX >= menuLeft && p.mouseX <= menuRight &&
               p.mouseY >= menuAreaTop && p.mouseY <= menuAreaBottom)) {
           languageMenuOpen = false;

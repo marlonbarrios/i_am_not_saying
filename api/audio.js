@@ -1,4 +1,5 @@
 import OpenAI from 'openai';
+import { isPlaceholderApiKey } from './openaiKey.js';
 
 export default async function handler(req, res) {
   // Set CORS headers
@@ -18,9 +19,11 @@ export default async function handler(req, res) {
   try {
     // Check for API key
     const apiKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_KEY;
-    if (!apiKey) {
-      console.error('OpenAI API key is missing');
-      return res.status(500).json({ error: 'OpenAI API key is not configured' });
+    if (isPlaceholderApiKey(apiKey)) {
+      console.error('OpenAI API key is missing or still set to the example. Use your real key in .env');
+      return res.status(500).json({
+        error: 'OpenAI API key is not configured. In your .env file set OPENAI_API_KEY to your real key from https://platform.openai.com/account/api-keys (not the example text).'
+      });
     }
 
     // Parse request body - Vercel automatically parses JSON, but handle both cases
@@ -48,7 +51,7 @@ export default async function handler(req, res) {
     });
 
     const response = await openai.audio.speech.create({
-      model: "tts-1",
+      model: "gpt-4o-mini-tts",
       voice: voice,
       input: text,
     });

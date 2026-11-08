@@ -6,9 +6,10 @@
 import 'dotenv/config';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
+import { isPlaceholderApiKey } from './api/openaiKey.js';
 
 const apiKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_KEY;
-const isPlaceholder = !apiKey || /^sk-your[-_]?(key[-_]?)?here$/i.test(apiKey) || apiKey.includes('your-key-here') || apiKey.includes('your_openai');
+const isPlaceholder = isPlaceholderApiKey(apiKey);
 if (isPlaceholder) {
   console.warn('\n⚠️  OpenAI API key missing or still a placeholder.');
   console.warn('   Edit your .env file and set OPENAI_API_KEY to your real key from:');

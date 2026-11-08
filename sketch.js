@@ -1005,7 +1005,7 @@ const sketch = p => {
     const creditsY = p.height - creditsMargin;
     const creditText1 = 'Concept and programming by ';
     const nameText = 'Marlon Barrios Solano';
-    const creditText2 = ' • Powered by OpenAI (GPT-4, TTS-1) • p5.js';
+    const creditText2 = ' • Powered by OpenAI (GPT-5.6, GPT-4o mini TTS) • p5.js';
     const repoText = ' • Repository';
     const creditWidth1 = p.textWidth(creditText1);
     const nameWidth = p.textWidth(nameText);
@@ -1085,7 +1085,7 @@ const sketch = p => {
       const linkHit = 8 * uiScale;
       const nameText = 'Marlon Barrios Solano';
       const creditText1 = 'Concept and programming by ';
-      const creditText2 = ' • Powered by OpenAI (GPT-4, TTS-1) • p5.js';
+      const creditText2 = ' • Powered by OpenAI (GPT-5.6, GPT-4o mini TTS) • p5.js';
       const repoText = ' • Repository';
       p.textSize(Math.round(11 * uiScale));
       const creditWidth1 = p.textWidth(creditText1);

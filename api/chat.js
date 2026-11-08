@@ -1,4 +1,5 @@
 import OpenAI from 'openai';
+import { isPlaceholderApiKey } from './openaiKey.js';
 
 export default async function handler(req, res) {
   // Set CORS headers
@@ -18,12 +19,7 @@ export default async function handler(req, res) {
   try {
     // Check for API key (reject placeholders so we don't send them to OpenAI)
     const apiKey = process.env.OPENAI_API_KEY || process.env.VITE_OPENAI_KEY;
-    const isPlaceholder = !apiKey ||
-      apiKey === 'your_openai_api_key_here' ||
-      /^sk-your[-_]?(key[-_]?)?here$/i.test(apiKey) ||
-      apiKey.includes('your-key-here') ||
-      apiKey.includes('your_openai');
-    if (isPlaceholder) {
+    if (isPlaceholderApiKey(apiKey)) {
       console.error('OpenAI API key is missing or still set to the example. Use your real key in .env');
       return res.status(500).json({
         error: 'OpenAI API key is not configured. In your .env file set OPENAI_API_KEY to your real key from https://platform.openai.com/account/api-keys (not the example text).'
@@ -55,8 +51,9 @@ export default async function handler(req, res) {
     });
 
     const completion = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: "gpt-5.6-sol",
       temperature: 0.5,
+      reasoning_effort: "none",
       messages: [{ role: "user", content: prompt }]
     });
 
